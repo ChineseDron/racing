@@ -1,1 +1,4579 @@
-﻿eval(function(E,I,A,D,J,K,L,H){function C(A){return A<62?String.fromCharCode(A+=A<26?65:A<52?71:-4):A<63?'_':A<64?'$':C(A>>6)+C(A&63)}while(A>0)K[C(D--)]=I[--A];function N(A){return K[A]==L[A]?A:K[A]}if(''.replace(/^/,String)){var M=E.match(J),B=M[0],F=E.split(J),G=0;if(E.indexOf(F[0]))F=[''].concat(F);do{H[A++]=F[G++];H[A++]=N(B)}while(B=M[G]);H[A++]=F[G]||'';return H.join('')}return E.replace(J,N)}('X n;Bz.8.C9=5(){w c.3(/^\\Bc+|\\Bc+U/,"")};Bz.8.GL=5(A){X T=c,U={};n.k(A,5(U,A){U=U.Ba().3(/\\U/O,"$$$$");T=T.3(Bu("@{"+A+"}","O"),U)});w T.Ba()};Bz.8.htmlEncode=5(){X U=6.BS("a");w 5(){X T;U.B6(6.FL(c));T=U.Bk;U.Bk="";w T}}();Bz.8.EA=5(){w c.3(/[^\\CT-\\C0]/O,"--").x};Bz.8.subByte=5(T,A){X U=c;V(U.EA()<=T)w U;A=A||"";T-=A.EA();w U=U.BP(P,T).3(/([^\\CT-\\C0])/O,"Dh ").BP(P,T).3(/[^\\CT-\\C0]U/,"").3(/([^\\CT-\\C0]) /O,"Dh")+A};Bn.8.defer=5(U,B){X T=c,A=5(){T.p(U,9)};w D9(A,B)};Bn.8.i=5(U){X T=c;w 5(){w T.p(U,9)}};Bn.8.EI=5(T){X U=c;w 5(){w T.p(U,9)}};Bn.8.F1=5(U){X A=c,T=t.8.BP.j(9,Q);w 5(){w A.p(U,T)}};Bn.8.when=5(T){X U=5(A){V(A=T()){Cj(U.BM);w c.j(c,A)}}.i(c);U.BM=Dy(U,Bq)};Bn.8.condition=5(T){X U=c;w 5(){V(T.p(c,9))w U.p(c,9)}};Bn.8.EZ=5(T){T=T||Bq;X A=c,U=f;w 5(){X D=c,C=t.8.BP.j(9,P);B.j();5 B(){X E=b EC,F=T-(E-U);V(F>P)w D9(B,F);U=E;A.p(D,C)}}};Bn.8.concatArguments=5(U){X A=c,T=t.8.BP.j(9,Q);w 5(){X B=t.8.BP.j(9,P);w A.p(U,B.Dz(T))}};t.8.Ch=5(U,T){c.CD(U,P,T)};t.8.EH=5(U){c.CD(U,Q)};Number.8.B0=5(T){X U=c.Ba().Fc(".")[P];V(T-U.x>-Q)w t(T-U.x+Q).Bx("P")+U;d w U};n={CI:/EX/BC.g(CG.CK),FD:/EX GX/BC.g(CG.CK),isFirefox:/firefox/BC.g(CG.CK),Dc:/safari/BC.g(CG.CK),isOpera:/opera/BC.g(CG.CK),isChrome:/chrome/BC.g(CG.CK),isStrict:6.compatMode=="CSS1Compat",GI:6.BS("a"),p:5(A,U,T){V(!U)U={};V(T)n.k(A,5(A,B){V(B Bj T)w;U[B]=A});d n.k(A,5(T,A){U[A]=T});w U},Cu:5(A,T,B){X U=5(){B.p(A,9)};V(A.Y)A=A.Y;V(Bs.E4)A.E4("BO"+T,U);d V(Bs.Ff)A.Ff(T,U,o);d A["BO"+T]=U;w U},appendStyle:5(U){X T;V(6.FR){T=6.FR();T.cssText=U}d{T=6.BS("q");T.l="D$/css";T.B6(6.FL(U));6.Ca("head")[P].B6(T)}},Cw:5(T,U,A){V(Bs.Fm)T.Fm("BO"+U,A);d V(Bs.Fg)T.Fg(U,A,o);d V(T["BO"+U]==A)T["BO"+U]=f},BY:5(E,U,D,A){X C,B,T;E=E||5(){};U=U||{};T={};C=5(){c.DV=n.W();E.p(c,9)};B=C.8;n.F9.j(B);n.k(U,5(U,T){B[T]=5(T,U){V(y(T)=="5")w 5(){X C,B;C=t.8.BP.j(9,P);V(D&&D.p(c,[U].Dz(C))===o)w;c.DJ("EW"+U,C);B=T.p(c,C);V(A)A.p(c,[U].Dz(C));c.DJ(U,C);w B};d w T}(U,T)});w C},clear:5(U){V(U Cv t||(y U=="Bb"&&U.x))U.x=P;d V(y U=="Bb"){n.k(U,5(T,A){delete U[A]});w U}},F9:5(){c.BO=5(U,A){X T=c.DV;n.DP(T+U,A.i(c))};c.onbefore=5(U,A){X T=c.DV;n.DP(T+"EW"+U,A.i(c))};c.un=5(U,T){};c.DJ=5(T,U){X A=c.DV;n.DP(A+T,U)}},GU:5(){X U=5(){X U=6.BS("a");6.Cf.B6(U);w U};w 5(A){X T;A=n.Bg(A);V(A.W){V(T=6.Bm(A.W))w T;d{T=U();T.W=A.W}}d T=U();w T}}(),createFuze:5(){X U,A,T;U=[];A=5(A){V(T)A();d U.h(A)};A.Ef=5(){u(U.x)U.CQ()();T=e};A.F3=5(){T=o};A.wettish=5(){c.Ef();c.F3()};w A},createIf:5(U){w 5(B){X T=U(),A={Else:5(U){U=U||D8;T||U()}};B=B||D8;T&&B();w A}},DP:5(C,B,T){X D,A,U;V(y(B)=="_")B=[];D=9.DF;V(!D.C2)D.C2={};A=5(T,B,U){X C,A;C=D.C2;V(A=C[T])n.k(A,5(T){T.p(U,B)})};U=5(U,A){X T;T=D.C2;V(!T[U])T[U]=[];T[U].h(A)};V(y(B)=="5")U.p(c,9);d V(B Cv t)A.p(c,9)},k:5(A,B){V(A Cv t||(y A=="Bb"&&A.x)){V(y A=="Bb"&&n.Dc)A=t.8.BP.j(A);Z(X C=P,T=A.x;C<T;C++)V(B(A[C],C)===o)r}d V(y(A)=="Bb"){X U={};Z(C Bj A){V(U[C])EP;V(B(A[C],C)===o)r}}d V(y(A)=="1"){Z(C=P;C<A;C++)V(B(C,C)===o)r}d V(y(A)=="0")Z(C=P,T=A.x;C<T;C++)V(B(A.FP(C),C)===o)r},BK:5(A,U){X T,B;V(A&&A.Ee)w U?A.Y:A;A=y(A)=="0"?6.Bm(A):A;V(!A)w f;V(U)w A;B=A.BT("GB");V(y B=="0")w n.D1(B-P);d{T=b n.Fi(A);B=n.D1(T);A.FZ("GB",B+"");w T}},Dt:5(U){U=U||Bs.Cx;V(!U){X T=9.DF.E$;u(T){U=T.9[P];V(U&&y(U.altKey)=="D3")r;T=T.E$;U=f}}w U},BE:5(U,T){w y(U)=="1"?U:T},B4:5(U,T){w y(U)=="0"?U:T},Bg:5(U){X T;T={};w y(U)=="_"?T:U},D1:5(T){X B,A,U;B=9.DF;V(!B.Br)B.Br={};V(y(B.1)=="_")B.1=P;A=y(T);V(A=="1")w B.Br[T.Ba()];d V(A=="Bb"||A=="5"){U=B.1++;B.Br[U.Ba()]=T;w U}},W:5(){X U=9.DF;U.1=++U.1||P;w"T"+U.1},Fb:5(B,T){X C=B.x,U=P,A=5(){V(U==C)T&&T()};n.k(B,5(B){X T=6.BS("img");T.GV=T.FM=5(){c.GV=c.FM=f;U++;A()};n.GI.B6(T);T.FC=B})},loadScript:5(){X Fh=5(C7){C7=C7.3(/Z\\((.*?); ?(.+?);\\)\\{/O,5(A,U,T){U=U||"BC";w["Z(X ",U," = P, F8 = ",T,"; ",U," < F8; ",U," ++){"].Bx("")});FX(C7)};w 5(T,U){n.Bh(T,5(T){Fh(T);U&&U(T)})}}(),nameSpace:5(T){V(y(T)=="0"){X A,B,U;A=T.Fc(".");U=Bs;u(A.x){B=A.CQ();V(y(U[B])!="Bb"&&y(U[B])!="5")U[B]={};U=U[B]}w U}},D8:5(){w o},queryString:5(B,C){X A,T,U;A=C||location.Bl;T=b Bu("(\\\\?|&)"+B+"=([^&#]*)(#|&|U)","BC");U=A.v(T);w U?U[R]:""},Fx:5(U){w CN.Fa(CN.random()*U)},randomWord:5(){X U="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";w 5(A,C){X T,B=[];T=C||U;n.k(A,5(U){B[U]=T.FP(c.Fx(T.x))}.i(c));w B.Bx("")}}(),Bh:5(A,T){Bh=n.Bh;X U=Bh.C$;V(!Bh.C$)V(Bs.GD)U=Bh.C$=b GD();d U=Bh.C$=b ActiveXObject("Eo.XMLHTTP");U.open("GET",A,e);U.onreadystatechange=5(){V(U.readyState==B8&&U.status==200)T(U.responseText)};U.send(f)}};n.Fj=n.BY(5(T){T=n.Bg(T);c.l=n.B4(T.l,"normal");X U=c.GP="ontouchstart"Bj Bs;c.Ey=U?"touchstart":"En",c.EQ=U?"touchmove":"mousemove",c.EB=U?"touchend":"mouseup"},{i:5(T,U){T=n.BK(T);U=n.BK(U)||T;X A={};A[c.Ey]=5(U){U=n.Dt(U);c.GJ();U.DX=e;U.Bi&&U.Bi();w U.B3=o}.i(c);U.D5(A);c.DW=T},EE:5(U){X A=[];V(U.Dm&&U.Dm.x){X T=U.Dm[P];A[P]=T.ET;A[Q]=T.ES}d{A[P]=U.ET;A[Q]=U.ES}w A},GJ:5(){X T,B,U;T=c.DW;B=T.D7={};c.GN=e;B.Be=BV(T.BJ("BB"),BF)||P;B.Bd=BV(T.BJ("BG"),BF)||P;U=n.Dt();X A=c.EE(U);B.Fw=A[P];B.Ft=A[Q];c.FN();c.Fr()},Cz:5(){c.GN=o;c.Eu();c.GT()},FN:5(){X U,T;U=c.DW;T=U.D7;T.FS=n.Cu(6,"E7",5(U){U=U||Cx;U.Bi&&U.Bi();U.DX=e;w U.B3=o});T.GS=n.Cu(6,c.EQ,5(U){X B,A;U=U||Cx;B=n.CI&&U.CH!=Q;A=!n.CI&&U.CH!=P;V((B||A)&&!c.GP)c.Cz();X C=c.EE(U);T.Dg=C[P];T.Eq=C[Q];U.Bi&&U.Bi();w U.B3=o}.i(c));T.Ek=n.Cu(6,c.EB,5(){c.Cz()}.i(c));Cj(T.BM);T.BM=Dy(5(){X D,C,A,B;V(T.Dg){A=T.Dg-T.Fw;B=T.Eq-T.Ft;D=T.Be+A;C=T.Bd+B;V(c.l=="GQ")c.B3(A,B,D,C);d U.BB(D).BG(C)}}.i(c),BF)},Eu:5(){X U=c.DW.D7;n.Cw(6,c.EQ,U.GS);n.Cw(6,c.EB,U.Ek);n.Cw(6,"E7",U.FS);Cj(U.BM)},Fr:5(){X U;U=n.GU({W:"CS-EN"});V(!U.$){U.$="CS-EN";U.onselectstart=5(){w o}}U.q.By="GA"},GT:5(){D9(5(){X U;U=6.Bm("CS-EN");V(U)U.q.By="Ds"},Bq)},B3:5(U,T){}});n.DragDrop=n.BY(5(U){U=n.Bg(U)},{i:5(T,U){T=n.BK(T);U=n.BK(U)||T;c.GO(T,U);c.ER(T,U);c.Fy(T,U)},GO:5(T,U){X A;A=b n.DottedBorder({BB:BV(T.BJ("BB"),BF)||P,BG:BV(T.BJ("BG"),BF)||P,s:T.s()||BV(T.BJ("s"),BF)||P,z:T.z()||BV(T.BJ("z"),BF)||P});A.Fp();c.FY=A},ER:5(A,T){X U;U=b n.Fj({l:"GQ"});U.i(A,T);c.Et=U},Fy:5(A,T){X C,D,B,U;B=c.FY;U=c.Et;T.D5({En:5(U){C=B.BB;D=B.BG;B.By(e);U=U||Cx;U.DX=e;U.Bi&&U.Bi();w U.B3=o}});U.BO("B3",5(U,T){B.moveTo(C+U,D+T)});U.BO("Cz",5(){A.BB(B.BB).BG(B.BG);B.By(o)})}});n.Ev=n.BY(5(){c.0=t.8.Bx.j(9,"")},{p:5(U){w c.0.GL(U)}});n.Fi=n.BY(5(U){c.Y=U},{Ee:e,attr:5(U,T){V(y T=="0")c.Y.FZ(U,T);d w c.Y.BT(U)},BJ:5(){w n.CI?5(U){w c.Y.currentStyle[U]}:5(T){X U;U=6.defaultView.getComputedStyle(c.Y,f);w U.getPropertyValue(T)}}(),hasClass:5(U){X T=" "+c.Y.$+" ";w T.BW(" "+U+" ")>-Q},setClass:5(U){V(y(U)=="0")c.Y.$=U.C9()},F7:5(T){X U,A;U=c.Y;A=" "+U.$+" ";V(A.BW(" "+T+" ")==-Q){A+=T;U.$=A.C9()}w c},delClass:5(T){X U,A;U=c.Y;A=" "+U.$+" ";V(A.BW(" "+T+" ")>-Q){A=A.3(" "+T+" "," ");U.$=A.C9()}w c},DR:5(T){X U=c.Y;V(y(T)!="_"){U.Bk=T;w c}d w U.Bk},BB:5(T){X U=c.Y;V(y(T)=="1"){U.q.BB=T+"BH";w c}d w c.Dv().Be},BG:5(T){X U=c.Y;V(y(T)=="1"){U.q.BG=T+"BH";w c}d w c.Dv().Bd},s:5(T){X U=c.Y;V(y(T)=="1"){U.q.s=T+"BH";w c}d w U.clientWidth},z:5(T){X U=c.Y;V(y(T)=="1"){U.q.z=T+"BH";w c}d w U.clientHeight},E3:5(T){X U=c.Y;T=T||"P";U.q.E3=T;w c},Dl:5(T){X U=c.Y;T=n.BE(T,P);U.q.Dl=T+"BH";w c},floatLeft:5(){X U=c.Y.q;U.cssFloat=U.styleFloat="BB"},D6:5(){X U=c.Y.q;U.Bp="D6";U.BB=U.BG="0px"},By:5(T){X U=c.Y;V(y(T)=="D3")U.q.By=T?"GA":"Ds";d w c.BJ("By")!="Ds"},CX:5(){X U=c.Y.BR;u(U&&!U.Do&&U.C6)U=U.C6;w U},Dw:5(T){X U;U=n.BK(T);c.Y.B6(U.Y)},remove:5(){X U;U=n.BK(Y);c.Y.EU(U.Y)},insert:5(U){X T;T=c.Y;V(T.BR)T.Ch(U,T.BR);d c.Dw(U)},D5:5(B){X U,A,T;U={};T={};A=c.Y;n.k(B,5(U,B){T[B]=n.Cu(A,B,U)});w T},delEvents:5(A){X U,T;U={};T=c.Y;n.k(A,5(U,A){n.Cw(T,A,U)})},Dv:5(){X U,T,F,D,E;U=c.Y;F={};V(U.F$){D=U.F$();E=n.CI?R:P;X C=6,B=CN.Eb(C.Bv.EO,C.Cf.EO),A=CN.Eb(C.Bv.D_,C.Cf.D_);w{Be:D.BB+A-E,Bd:D.BG+B-E}}d{F={Be:U.Dj,Bd:U.Dd};T=U.FQ;V(T!=U)u(T){F.Be+=T.Dj;F.Bd+=T.Dd;T=T.FQ}V(n.Dc&&c.BJ("Bp")=="D6"){F.Be-=6.Cf.Dj;F.Bd-=6.Cf.Dd}}V(U.BD)T=U.BD;d T=f;u(T&&T.Do.Em()!="BODY"&&T.Do.Em()!="FI"){F.Be-=T.D_;F.Bd-=T.EO;V(T.BD)T=T.BD;d T=f}w F},getSize:5(){X B,T,A,U;B={};T=c.Y;A=c.BJ("s");U=c.BJ("z");V(A&&A!="E8")B.s=BV(A,BF);d B.s=T.offsetWidth;V(U&&U!="E8")B.z=BV(U,BF);d B.z=T.offsetHeight;w B},observe:5(U,T){U=n.BK(U);U.BO("resize",T.i(c))},E0:5(T){X U;U=c.Y;V(/\\.png$/BC.g(T)&&n.FD)U.q.2="progid:DXImageTransform.Eo.AlphaImageLoader(FC=\'"+T+"\',sizingMethod=\'scale\');";d U.q.backgroundImage="url("+T+")"},formatCover:5(T){X U=[];c.F7("CS-overlap");n.k(T,5(T){X A=6.BS("a");A.$="cover";A.q.BG="-"+(T*Bq)+"%";c.Dw(A);U.h(A)}.i(c));w U},E5:5(T){X U=c.Y.q;V(n.CI)U.2="alpha(FV="+T+")";d U.FV=T/Bq},showIn:5(){X U=c.E5.EZ(BF);Z(X T=P;T<=Bq;T+=BF)U.j(c,T)}});n.DataStack=n.BY(5(U){U=n.Bg(U);c.Fn=U.Fn||[];c.4=U.4||[];c.CZ(P)},{CZ:5(U){c.E9=n.BE(U,P);c.DC=c.4[c.E9]},pos:5(U,T){n.k(c.4,5(A,B){V(A[U]===T){c.CZ(BC);w o}}.i(c))},load:5(U){c.4=U||[];c.CZ(P)},loadFromXml:5(U){},read:5(U){X T=y(U);Cr(T){m"1":w c.4[U];r;m"0":w c.DC[U];r;EJ:w c.DC;r}},append:5(U){c.4.h(U)},Ch:5(T,U){c.4.Ch(T,U)},EH:5(U){c.4.EH(U);c.CZ(P)},edit:5(U,T){c.DC[U]=T},sortBy:5(U,T){T=n.B4(T,"F4");Cr(T){m"F4":c.4.DN(5(A,T){w A[U]<T[U]?-Q:Q});r;m"desc":c.4.DN(5(A,T){w A[U]>T[U]?-Q:Q});r}},count:5(){w c.4.x},k:5(U){n.k(c.4,U)}});n.FG=n.BY(5(U){U=n.Bg(U);c.DA=n.BE(U.DA,Bq)},{F6:5(){Cj(c.BM);c.BM=Dy(c.DJ.F1(c,"Ep"),c.DA)},EK:5(){Cj(c.BM)}});n.BasicColor=n.BY(5(U){U=n.Bg(U);c.Ct=U.Ct;c.Cl=U.Cl;c.Dp=U.Dp;c.Br={}},{init:5(){c.Ct=c.DK(c.Ct);c.Cl=c.DK(c.Cl)},getColorByIndex:5(){X U=5(A,U,B,T){w A+CN.round((U-A)*(B/T))};w 5(T){X A,D,C,B,G,E;V(c.Br[T])w c.Br[T];E=c.Dp;B=c.Ct;G=c.Cl;X F=U.EI(5(A,U){w c.j(c,A,U,T,E)});A=F(B.Ce,G.Ce);D=F(B.Cg,G.Cg);C=F(B.Ck,G.Ck);F=c.CU({Ce:A,Cg:D,Ck:C});w c.Br[T]=F}}(),DK:5(){X U=/^\\#?(\\BN{R})(\\BN{R})(\\BN{R})U/,T=5(U){w BV(U,BZ)};w 5(A){U.g(A);w{Ce:T(Bu.Dh),Cg:T(Bu.$2),Ck:T(Bu.$3)}}}(),CU:5(){X U=5(U){w U.Ba(BZ)};U=U.EI(5(U){U=c.j(c,U);V(U.x==Q)w"P"+U;d w U});w 5(T){w["#",U(T.Ce),U(T.Cg),U(T.Ck)].Bx("")}}()});n.D0=n.BY(5(U){U=n.Bg(U);c.EF=n.BK(U.EF);c.s=n.BE(U.s,BZ);c.z=n.BE(U.z,BZ);c.B7=U.B7;c.x=n.BE(U.x,Q);c.DT=n.B4(U.DT,"Fl");c.Bp=c.EG=n.BE(U.EG,P);c.B9=n.BE(U.B9,P);c.De=n.B4(U.De,"");c.D4=n.B4(U.D4,"");c.CR=n.B4(U.CR,"");c.D2=!!U.D2;c.Dn=n.BE(U.Dn,Bq);c.CJ=c.DT=="Fl";c.CA=c.DT=="horizontal"},{Fp:5(){X A,U,B;c.Cq=n.W();c.Cm=n.W();V(c.CJ){U=c.s;B=c.z*c.x}d V(c.CA){U=c.s*c.x;B=c.z}A=n.D0.FW.p({Cq:c.Cq,Cm:c.Cm,s:c.s,z:c.z,F5:U,GE:B,CR:c.CR});c.EF.DR(A);c.Ew=n.BK(c.Cq);c.BQ=n.BK(c.Cm);c.C5(c.EG);c.Er();X T=c.BQ.Y.q;T.El=c.De;T.color=c.D4;T.Dl=c.z+"BH";c.BQ.DR(c.CR);n.Fb([c.B7],5(){c.BQ.Y.q.El="";c.BQ.DR("");c.BQ.E0(c.B7)}.i(c));V(c.D2)c.Fu()},C5:5(T){X U;U=c.BQ.Y.q;T=n.BE(T,P);c.Bp=T;V(c.CJ)U.marginTop=-c.z*T+"BH";d V(c.CA)U.marginLeft=-c.s*T+"BH"},animationTo:5(T){X U;T=n.BE(T,P);U=c.BM;U.EK();c.DB=T;U.F6()},Er:5(){V(!c.B9)w o;V(c.CJ)c.BQ.s(c.s*(c.B9+Q));d V(c.CA)c.BQ.z(c.z*(c.B9+Q));c.Du();c.C5(c.B9);c.Du()},Du:5(){c.CJ=!c.CJ;c.CA=!c.CA},Fu:5(){X U=c.BM=b n.FG({DA:c.Dn});c.DB=P;U.BO("Ep",5(){X T;V(c.Bp<c.DB)T=c.Bp+Q;d V(c.Bp>c.DB)T=c.Bp-Q;d w U.EK();c.C5(T)}.i(c))}});n.D0.FW=b n.Ev("<a W=\'@{Cq}\' B5=\'CS-FK-Ew\' ","q=\'s: @{s}BH; z: @{z}BH;\'>","<Cd W=\'@{Cm}\' B5=\'CS-FK-BQ\' Bl=\'ucren:\' onclick=\'w o;\' E6=\'E6\' onfocus=\'c.blur();\' ","q=\'s: @{F5}BH; z: @{GE}BH;\'>","@{CR}","</Cd>","</a>");n.queryElement=5(){X D=/((?:\\((?:\\([^()]+\\)|[^()]+)+\\)|\\[(?:\\[[^\\[\\]]*\\]|[\\\'\\"][^\\\'\\"]*[\\\'\\"]|[^\\[\\]\\\'\\"]+)+\\]|\\\\.|[^ >+~,(\\[\\\\]+)+|[>+~])(\\Bc*,\\Bc*)?((?:.|\\C4|\\CC)*)/O,E=P,B$=Object.8.Ba,T=o,U=e;[P,P].DN(5(){U=o;w P});X F=5(T,N,BA,B){BA=BA||[];N=N||6;X EY=N;V(N.7!==Q&&N.7!==DZ)w[];V(!T||y T!=="0")w BA;X I=[],J,C,M,E,A=e,CB=F.DG(N),Cb=T,U,Bw,G,L;do{D.Bo("");J=D.Bo(Cb);V(J){Cb=J[S];I.h(J[Q]);V(J[R]){E=J[S];r}}}u(J);V(I.x>Q&&H.Bo(T)){V(I.x===R&&K.B2[I[P]])C=BI(I[P]+I[Q],N);d{C=K.B2[I[P]]?[N]:F(I.CQ(),N);u(I.x){T=I.CQ();V(K.B2[T])T+=I.CQ();C=BI(T,C)}}}d{V(!B&&I.x>Q&&N.7===DZ&&!CB&&K.v.BX.g(I[P])&&!K.v.BX.g(I[I.x-Q])){U=F.Bt(I.CQ(),N,CB);N=U.CV?F.2(U.CV,U.CF)[P]:U.CF[P]}V(N){U=B?{CV:I.DH(),CF:BU(B)}:F.Bt(I.DH(),I.x===Q&&(I[P]==="~"||I[P]==="+")&&N.BD?N.BD:N,CB);C=U.CV?F.2(U.CV,U.CF):U.CF;V(I.x>P)M=BU(C);d A=o;u(I.x){Bw=I.DH();G=Bw;V(!K.B2[Bw])Bw="";d G=I.DH();V(G==f)G=N;K.B2[Bw](M,G,CB)}}d M=I=[]}V(!M)M=C;V(!M)F.CW(Bw||T);V(B$.j(M)==="[Bb t]"){V(!A)BA.h.p(BA,M);d V(N&&N.7===Q){Z(L=P;M[L]!=f;L++)V(M[L]&&(M[L]===e||M[L].7===Q&&F.Ci(N,M[L])))BA.h(C[L])}d Z(L=P;M[L]!=f;L++)V(M[L]&&M[L].7===Q)BA.h(C[L])}d BU(M,BA);V(E){F(E,EY,BA,B);F.Fe(BA)}w BA};F.Fe=5(A){V(C){T=U;A.DN(C);V(T)Z(X B=Q;B<A.x;B++)V(A[B]===A[B-Q])A.CD(B--,Q)}w A};F.matches=5(T,U){w F(T,f,f,U)};F.Bt=5(D,A,U){X T;V(!D)w[];Z(X G=P,C=K.DU.x;G<C;G++){X F=K.DU[G],E;V((E=K.DL[F].Bo(D))){X B=E[Q];E.CD(Q,Q);V(B.Cy(B.x-Q)!=="\\\\"){E[Q]=(E[Q]||"").3(/\\\\/O,"");T=K.Bt[F](E,A,U);V(T!=f){D=D.3(K.v[F],"");r}}}}V(!T)T=A.Ca("*");w{CF:T,CV:D}};F.2=5(E,C,B,B$){X T=E,U=[],A=C,L,D,I=C&&C[P]&&F.DG(C[P]);u(E&&C.x){Z(X G Bj K.2)V((L=K.DL[G].Bo(E))!=f&&L[R]){X Cb=K.2[G],M,J,BU=L[Q];D=o;L.CD(Q,Q);V(BU.Cy(BU.x-Q)==="\\\\")EP;V(A===U)U=[];V(K.Dq[G]){L=K.Dq[G](L,A,B,U,B$,I);V(!L)D=M=e;d V(L===e)EP}V(L)Z(X BI=P;(J=A[BI])!=f;BI++)V(J){M=Cb(J,L,BI,A);X H=B$^!!M;V(B&&M!=f){V(H)D=e;d A[BI]=o}d V(H){U.h(J);D=e}}V(M!==_){V(!B)A=U;E=E.3(K.v[G],"");V(!D)w[];r}}V(E===T)V(D==f)F.CW(E);d r;T=E}w A};F.CW=5(U){throw"GG CW, FJ Ej: "+U};X K=F.selectors={DU:["BX","ED","CM"],v:{BX:/#((?:[\\BN\\CL-\\CO\\-]|\\\\.)+)/,Cs:/\\.((?:[\\BN\\CL-\\CO\\-]|\\\\.)+)/,ED:/\\[Di=[\\\'\\"]*((?:[\\BN\\CL-\\CO\\-]|\\\\.)+)[\\\'\\"]*\\]/,Df:/\\[\\Bc*((?:[\\BN\\CL-\\CO\\-]|\\\\.)+)\\Bc*(?:(\\CB?=)\\Bc*([\\\'\\"]*)(.*?)\\S|)\\Bc*\\]/,CM:/^((?:[\\BN\\CL-\\CO\\*\\-]|\\\\.)+)/,DM:/:(E2|Co|DE|CX)-child(?:\\((DS|C8|[\\dn+\\-]*)\\))?/,Cp:/:(Co|Ei|EV|FB|CX|DE|DS|C8)(?:\\((\\Cc*)\\))?(?=[^\\-]|U)/,Cn:/:((?:[\\BN\\CL-\\CO\\-]|\\\\.)+)(?:\\(([\\\'\\"]?)((?:\\([^\\)]+\\)|[^\\(\\)]*)+)\\R\\))?/},DL:{},Dx:{"B5":"$","Z":"htmlFor"},DD:{Bl:5(U){w U.BT("Bl")}},B2:{"+":5(A,C){X T=y C==="0",E=T&&!/\\C1/.g(C),D=T&&!E;V(E)C=C.BL();Z(X G=P,B=A.x,U;G<B;G++)V((U=A[G])){u((U=U.EM)&&U.7!==Q);A[G]=D||U&&U.Bf.BL()===C?U||o:U===C}V(D)F.2(C,A,e)},">":5(A,D){X T=y D==="0",U,E=P,C=A.x;V(T&&!/\\C1/.g(D)){D=D.BL();Z(;E<C;E++){U=A[E];V(U){X B=U.BD;A[E]=B.Bf.BL()===D?B:o}}}d{Z(;E<C;E++){U=A[E];V(U)A[E]=T?U.BD:U.BD===D}V(T)F.2(D,A,e)}},"":5(A,C,T){X D=E++,B=J,U;V(y C==="0"&&!/\\C1/.g(C)){C=C.BL();U=C;B=I}B("BD",C,D,A,U,T)},"~":5(A,C,T){X D=E++,B=J,U;V(y C==="0"&&!/\\C1/.g(C)){C=C.BL();U=C;B=I}B("EM",C,D,A,U,T)}},Bt:{BX:5(B,T,U){V(y T.Bm!=="_"&&!U){X A=T.Bm(B[Q]);w A?[A]:[]}},ED:5(C,A){V(y A.Fz!=="_"){X U=[],T=A.Fz(C[Q]);Z(X D=P,B=T.x;D<B;D++)V(T[D].BT("Di")===C[Q])U.h(T[D]);w U.x===P?f:U}},CM:5(T,U){w U.Ca(T[Q])}},Dq:{Cs:5(E,C,D,A,T,B){E=" "+E[Q].3(/\\\\/O,"")+" ";V(B)w E;Z(X F=P,U;(U=C[F])!=f;F++)V(U)V(T^(U.$&&(" "+U.$+" ").3(/[\\Db\\CC]/O," ").BW(E)>=P)){V(!D)A.h(U)}d V(D)C[F]=o;w o},BX:5(U){w U[Q].3(/\\\\/O,"")},CM:5(T,U){w T[Q].BL()},DM:5(T){V(T[Q]==="Co"){X U=/(-?)(\\Cc*)CC((?:\\+|-)?\\Cc*)/.Bo(T[R]==="DS"&&"FU"||T[R]==="C8"&&"FU+Q"||!/\\D/.g(T[R])&&"0n+"+T[R]||T[R]);T[R]=(U[Q]+(U[R]||Q))-P;T[S]=U[S]-P}T[P]=E++;w T},Df:5(E,B,C,T,U,A){X D=E[Q].3(/\\\\/O,"");V(!A&&K.Dx[D])E[Q]=K.Dx[D];V(E[R]==="~=")E[B8]=" "+E[B8]+" ";w E},Cn:5(E,B,C,A,T){V(E[Q]==="F2"){V((D.Bo(E[S])||"").x>Q||/^\\BN/.g(E[S]))E[S]=F(E[S],f,f,B);d{X U=F.2(E[S],B,C,e^T);V(!C)A.h.p(A,U);w o}}d V(K.v.Cp.g(E[P])||K.v.DM.g(E[P]))w e;w E},Cp:5(U){U.unshift(e);w U}},E_:{enabled:5(U){w U.Dk===o&&U.l!=="hidden"},Dk:5(U){w U.Dk===e},Fk:5(U){w U.Fk===e},FO:5(U){U.BD.selectedIndex;w U.FO===e},parent:5(U){w!!U.BR},empty:5(U){w!U.BR},has:5(U,A,T){w!!F(T[S],U).x},header:5(U){w(/GW\\Cc/BC).g(U.Bf)},D$:5(U){w"D$"===U.l},GH:5(U){w"GH"===U.l},Ez:5(U){w"Ez"===U.l},F0:5(U){w"F0"===U.l},GK:5(U){w"GK"===U.l},Fo:5(U){w"Fo"===U.l},B7:5(U){w"B7"===U.l},E1:5(U){w"E1"===U.l},CH:5(U){w"CH"===U.l||U.Bf.BL()==="CH"},Fq:5(U){w(/Fq|select|textarea|CH/BC).g(U.Bf)}},GC:{CX:5(U,T){w T===P},DE:5(U,B,T,A){w B===A.x-Q},DS:5(U,T){w T%R===P},C8:5(U,T){w T%R===Q},FB:5(U,A,T){w A<T[S]-P},EV:5(U,A,T){w A>T[S]-P},Co:5(U,A,T){w T[S]-P===A},Ei:5(U,A,T){w T[S]-P===A}},2:{Cn:5(T,C,H,G){X A=C[Q],E=K.E_[A];V(E)w E(T,H,C,G);d V(A==="Ci")w(T.textContent||T.innerText||F.EL([T])||"").BW(C[S])>=P;d V(A==="F2"){X U=C[S];Z(X D=P,B=U.x;D<B;D++)V(U[D]===T)w o;w e}d F.CW("GG CW, FJ Ej: "+A)},DM:5(U,E){X F=E[Q],T=U;Cr(F){m"E2":m"CX":u((T=T.EM))V(T.7===Q)w o;V(F==="CX")w e;T=U;m"DE":u((T=T.C6))V(T.7===Q)w o;w e;m"Co":X G=E[R],B=E[S];V(G===Q&&B===P)w e;X H=E[P],D=U.BD;V(D&&(D.CE!==H||!U.Dr)){X A=P;Z(T=D.BR;T;T=T.C6)V(T.7===Q)T.Dr=++A;D.CE=H}X C=U.Dr-B;V(G===P)w C===P;d w(C%G===P&&C/G>=P)}},BX:5(U,T){w U.7===Q&&U.BT("W")===T},CM:5(U,T){w(T==="*"&&U.7===Q)||U.Bf.BL()===T},Cs:5(U,T){w(" "+(U.$||U.BT("B5"))+" ").BW(T)>-Q},Df:5(U,D){X B=D[Q],T=K.DD[B]?K.DD[B](U):U[B]!=f?U[B]:U.BT(B),C=T+"",E=D[R],A=D[B8];w T==f?E==="!=":E==="="?C===A:E==="*="?C.BW(A)>=P:E==="~="?(" "+C+" ").BW(A)>=P:!A?C&&T!==o:E==="!="?C!==A:E==="^="?C.BW(A)===P:E==="U="?C.Cy(C.x-A.x)===A:E==="|="?C===A||C.Cy(P,A.x+Q)===A+"-":o},Cp:5(U,A,D,C){X T=A[R],B=K.GC[T];V(B)w B(U,D,A,C)}}},H=K.v.Cp,B=5(T,U){w"\\\\"+(U-P+Q)};Z(X G Bj K.v){K.v[G]=b Bu(K.v[G].C_+(/(?![^\\[]*\\])(?![^\\(]*\\))/.C_));K.DL[G]=b Bu(/(^(?:.|\\C4|\\CC)*?)/.C_+K.v[G].C_.3(/\\\\(\\Cc+)/O,B))}X BU=5(T,U){T=t.8.BP.j(T,P);V(U){U.h.p(U,T);w U}w T};Fd{t.8.BP.j(6.Bv.FA,P)[P].7}Fs(A){BU=5(C,T){X U=T||[],B=P;V(B$.j(C)==="[Bb t]")t.8.h.p(U,C);d V(y C.x==="1"){Z(X A=C.x;B<A;B++)U.h(C[B])}d Z(;C[B];B++)U.h(C[B]);w U}}X C;V(6.Bv.B1)C=5(B,A){V(!B.B1||!A.B1){V(B==A)T=e;w B.B1?-Q:Q}X U=B.B1(A)&B8?-Q:B===A?P:Q;V(U===P)T=e;w U};d V("CP"Bj 6.Bv)C=5(B,A){V(!B.CP||!A.CP){V(B==A)T=e;w B.CP?-Q:Q}X U=B.CP-A.CP;V(U===P)T=e;w U};d V(6.Da)C=5(B,A){V(!B.B_||!A.B_){V(B==A)T=e;w B.B_?-Q:Q}X C=B.B_.Da(),D=A.B_.Da();C.GM(B,P);C.Es(B,P);D.GM(A,P);D.Es(A,P);X U=C.compareBoundaryPoints(Range.START_TO_END,D);V(U===P)T=e;w U};F.EL=5(A){X T="",U;Z(X B=P;A[B];B++){U=A[B];V(U.7===S||U.7===B8)T+=U.DY;d V(U.7!==GY)T+=F.EL(U.FA)}w T};(5(){X T=6.BS("a"),U="script"+(b EC()).getTime();T.Bk="<Cd Di=\'"+U+"\'/>";X A=6.Bv;A.Ch(T,A.BR);V(6.Bm(U)){K.Bt.BX=5(B,T,U){V(y T.Bm!=="_"&&!U){X A=T.Bm(B[Q]);w A?A.W===B[Q]||y A.DQ!=="_"&&A.DQ("W").DY===B[Q]?[A]:_:[]}};K.2.BX=5(U,A){X T=y U.DQ!=="_"&&U.DQ("W");w U.7===Q&&T&&T.DY===A}}A.EU(T);A=T=f})();(5(){X U=6.BS("a");U.B6(6.createComment(""));V(U.Ca("*").x>P)K.Bt.CM=5(B,T){X U=T.Ca(B[Q]);V(B[Q]==="*"){X A=[];Z(X C=P;U[C];C++)V(U[C].7===Q)A.h(U[C]);U=A}w U};U.Bk="<Cd Bl=\'#\'></Cd>";V(U.BR&&y U.BR.BT!=="_"&&U.BR.BT("Bl")!=="#")K.DD.Bl=5(U){w U.BT("Bl",R)};U=f})();V(6.DO)(5(){X A=F,T=6.BS("a");T.Bk="<Eh B5=\'GF\'></Eh>";V(T.DO&&T.DO(".GF").x===P)w;F=5(C,D,B,T){D=D||6;V(!T&&D.7===DZ&&!F.DG(D)){Fd{w BU(D.DO(C),B)}Fs(U){}}w A(C,D,B,T)};Z(X U Bj A)F[U]=A[U];T=f})();(5(){X U=6.BS("a");U.Bk="<a B5=\'g C3\'></a><a B5=\'g\'></a>";V(!U.CY||U.CY("C3").x===P)w;U.lastChild.$="C3";V(U.CY("C3").x===Q)w;K.DU.CD(Q,P,"Cs");K.Bt.Cs=5(A,T,U){V(y T.CY!=="_"&&!U)w T.CY(A[Q])};U=f})();5 I(C,D,H,B,T,A){Z(X G=P,E=B.x;G<E;G++){X U=B[G];V(U){U=U[C];X F=o;u(U){V(U.CE===H){F=B[U.DI];r}V(U.7===Q&&!A){U.CE=H;U.DI=G}V(U.Bf.BL()===D){F=U;r}U=U[C]}B[G]=F}}}5 J(C,D,BI,B,T,A){Z(X H=P,E=B.x;H<E;H++){X U=B[H];V(U){U=U[C];X G=o;u(U){V(U.CE===BI){G=B[U.DI];r}V(U.7===Q){V(!A){U.CE=BI;U.DI=H}V(y D!=="0"){V(U===D){G=e;r}}d V(F.2(D,[U]).x>P){G=U;r}}U=U[C]}B[H]=G}}}F.Ci=6.B1?5(T,U){w!!(T.B1(U)&BZ)}:5(T,U){w T!==U&&(T.Ci?T.Ci(U):e)};F.DG=5(U){X T=(U?U.B_||U:P).Bv;w T?T.Bf!=="FI":o};X BI=5(U,C){X B=[],A="",E,T=C.7?[C]:C;u((E=K.v.Cn.Bo(U))){A+=E[P];U=U.3(K.v.Cn,"")}U=K.B2[U]?U+"*":U;Z(X G=P,D=T.x;G<D;G++)F(U,T[G],B);w F.2(A,B)};w F}();n.FF=b 5(){X FE={}.Ex?e:o,B0=5(U){w U<BF?"P"+U:U},Ed={"\\Ec":"\\\\Ec","\\Db":"\\\\Db","\\CC":"\\\\CC","\\Ea":"\\\\Ea","\\C4":"\\\\C4","\\"":"\\\\\\"","\\\\":"\\\\\\\\"},F_=5(U){V(/[\\"\\\\\\CT-\\GR]/.g(U))w"\\""+U.3(/([\\CT-\\GR\\\\\\"])/O,5(A,U){X T=Ed[U];V(T)w T;T=U.charCodeAt();w"\\\\u00"+CN.Fa(T/BZ).Ba(BZ)+(T%BZ).Ba(BZ)})+"\\"";w"\\""+U+"\\""},Eg=5(B){X A=["["],T,D,C=B.x,U;Z(D=P;D<C;D+=Q){U=B[D];Cr(y U){m"_":m"5":m"FH":r;EJ:V(T)A.h(",");A.h(U===f?"f":n.FF.CU(U));T=e}}A.h("]");w A.Bx("")},FT=5(U){w"\\""+U.getFullYear()+"-"+B0(U.getMonth()+Q)+"-"+B0(U.getDate())+"N"+B0(U.getHours())+":"+B0(U.getMinutes())+":"+B0(U.getSeconds())+"\\""};c.CU=5(B){V(y B=="_"||B===f)w"f";d V(B Cv t)w Eg(B);d V(B Cv EC)w FT(B);d V(y B=="0")w F_(B);d V(y B=="1")w isFinite(B)?Bz(B):"f";d V(y B=="D3")w Bz(B);d{X A=["{"],T,C,U;Z(C Bj B)V(!FE||B.Ex(C)){U=B[C];Cr(y U){m"_":m"5":m"FH":r;EJ:V(T)A.h(",");A.h(c.CU(C),":",U===f?"f":c.CU(U));T=e}}A.h("}");w A.Bx("")}};c.DK=5(Fv){w FX("("+Fv+")")}}','K|L|M|O|Q|T|g|0|1|2|3|_|$|if|id|var|dom|for|div|new|this|else|true|null|test|push|bind|call|each|type|case|Ucren|false|apply|style|break|width|Array|while|match|return|length|typeof|height|string|number|filter|replace|records|function|document|nodeType|prototype|arguments|undefined|className|R|left|i|parentNode|fixNumber|10|top|px|I|getStyle|Element|toLowerCase|timer|w|on|slice|inner|firstChild|createElement|getAttribute|N|parseInt|indexOf|ID|Class|16|toString|object|s|y|x|nodeName|fixConfig|request|stopPropagation|in|innerHTML|href|getElementById|Function|exec|position|100|cache|window|find|RegExp|documentElement|U|join|display|String|pad|compareDocumentPosition|relative|returnValue|fixString|class|appendChild|image|4|reviseOffset|ownerDocument|J|isHorizontal|S|n|splice|sizcache|set|navigator|button|isIe|isVertical|userAgent|u00c0|TAG|Math|uFFFF|sourceIndex|shift|loadingText|ucrenlite|x00|encode|expr|error|first|getElementsByClassName|go|getElementsByTagName|P|d|a|red|body|green|insertBefore|contains|clearInterval|blue|endColor|innerId|PSEUDO|nth|POS|layerId|switch|CLASS|startColor|addEvent|instanceof|delEvent|event|substr|endDrag|xff|W|map|e|r|change|nextSibling|code|odd|trim|source|xhr|interval|targetPosition|currentRecord|attrHandle|last|callee|isXML|pop|sizset|fireEvent|decode|leftMatch|CHILD|sort|querySelectorAll|dispatch|getAttributeNode|html|even|direction|order|instanceId|target|cancelBubble|nodeValue|9|createRange|t|isSafari|offsetTop|loadingBackgroundColor|ATTR|newMouseX|$1|name|offsetLeft|disabled|lineHeight|targetTouches|animationInterval|tagName|maxIndex|preFilter|nodeIndex|none|Event|reverseDirection|getPos|add|attrMap|setInterval|concat|BasicSlippage|handle|enableAnimation|boolean|loadingColor|addEvents|absolute|draging|nul|setTimeout|scrollLeft|text|byteLength|TOUCH_END|Date|NAME|getCoors|container|defaultPosition|del|pack|default|stop|getText|previousSibling|dragscope|scrollTop|continue|TOUCH_MOVE|disposeDragDrop|clientY|clientX|removeChild|gt|before|msie|V|infrequently|f|max|b|m|isUcrenElement|fire|encodeArray|p|eq|expression|documentMouseUp|backgroundColor|toUpperCase|mousedown|Microsoft|doing|newMouseY|offset|setEnd|dragdrop|unRegisterDocumentEvent|Template|layer|hasOwnProperty|TOUCH_START|checkbox|usePNGbackground|reset|only|border|attachEvent|setAlpha|hidefocus|selectstart|auto|pointer|filters|caller|childNodes|lt|src|isIe6|useHasOwn|JSON|Timer|unknown|HTML|unrecognized|basicslippage|createTextNode|onerror|registerDocumentEvent|selected|charAt|offsetParent|createStyleSheet|documentSelectStart|encodeDate|2n|opacity|template|eval|dotted|setAttribute|floor|loadImage|split|try|uniqueSort|addEventListener|removeEventListener|extEval|BasicElement|BasicDrag|checked|vertical|detachEvent|fields|submit|render|input|createScope|catch|mouseY|disposeAnimation|json|mouseX|randomNumber|disposeEvents|getElementsByName|file|saturate|not|extinguish|asc|innerWidth|start|addClass|_l|registerClassEvent|encodeString|getBoundingClientRect|block|handleId|setFilters|XMLHttpRequest|innerHeight|TEST|Syntax|radio|tempDom|startDrag|password|format|setStart|isDraging|disposeDotted|isTouch|calc|x1f|documentMouseMove|removeScope|createLayer|onload|h|6|8'.split('|'),401,408,/[\w\$]+/g,{},{},[]))
+﻿/**
+ * Ucren-Lite
+ * FileName: boot.js
+ * Author: Dron
+ * Date: 2009-03-15
+ * Contact: ucren.com
+ */
+
+
+var Ucren;
+//
+// [基本数据类型扩展]
+//
+
+// String.prototype.trim
+String.prototype.trim = function(){
+	return this.replace(/^\s+|\s+$/, "");
+};
+
+// String.prototype.format
+String.prototype.format = function(conf){
+	var rtn = this, blank = {};
+	Ucren.each(conf, function(item, key){
+		item = item.toString().replace(/\$/g, "$$$$");
+		rtn = rtn.replace(RegExp("@{" + key + "}", "g"), item);
+	});
+	return rtn.toString();
+};
+
+// String.prototype.htmlEncode
+String.prototype.htmlEncode = function(){
+	var div = document.createElement("div");
+	return function(){
+		var text;
+		div.appendChild(document.createTextNode(this));
+		text = div.innerHTML;
+		div.innerHTML = "";
+		return text;
+	};
+}();
+
+// String.prototype.byteLength
+String.prototype.byteLength = function(){
+	return this.replace(/[^\x00-\xff]/g, "--").length;
+};
+
+// String.prototype.subByte
+String.prototype.subByte = function(len, tail){
+	var s = this;
+	if(s.byteLength() <= len)
+		return s;
+	tail = tail || "";
+	len -= tail.byteLength();
+	return s = s.slice(0, len).replace(/([^\x00-\xff])/g, "$1 ")
+		.slice(0, len)
+		.replace(/[^\x00-\xff]$/, "")
+		.replace(/([^\x00-\xff]) /g, "$1") + tail;
+}
+
+// Function.prototype.defer
+Function.prototype.defer = function(scope, timeout){
+	var me = this;
+	var fn = function(){
+		me.apply(scope, arguments);
+	};
+	return setTimeout(fn, timeout);
+};
+
+
+// Function.prototype.bind
+Function.prototype.bind = function(scope){
+	var me = this;
+	return function(){
+		return me.apply(scope, arguments);
+	}
+};
+
+// Function.prototype.pack
+Function.prototype.pack = function(fn){
+	var org = this;
+	return function(){
+		return fn.apply(org, arguments);
+	};
+};
+
+// Function.prototype.saturate
+Function.prototype.saturate = function(scope/*, args */){
+	var fn = this;
+	var args = Array.prototype.slice.call(arguments, 1);
+	return function(){
+		return fn.apply(scope, args);
+	}
+};
+
+// Function.prototype.when
+Function.prototype.when = function(cond){
+	var f = function(x){
+		if(x = cond()){
+			clearInterval(f.timer);
+			return this.call(this, x);
+		}
+	}.bind(this);
+	f.timer = setInterval(f, 100);
+};
+
+// Function.prototype.condition
+Function.prototype.condition = function(cond){
+	var fn = this;
+	return function(){
+		if(cond.apply(this, arguments)){
+			return fn.apply(this, arguments);
+		}
+	};
+};
+
+// Function.prototype.infrequently
+Function.prototype.infrequently = function(interval){
+	interval = interval || 100;
+	var fn = this, last = null;
+	return function(){
+		var self = this, args = Array.prototype.slice.call(arguments, 0);
+		start.call();
+		function start(){
+			var now = new Date, wait = interval - (now - last);
+			if(wait > 0)
+				return setTimeout(start, wait);
+			last = now;
+			fn.apply(self, args);
+		}
+	}
+};
+
+// Function.prototype.concatArguments
+Function.prototype.concatArguments = function(scope/*, args */){
+	var me = this;
+	var outerArg = Array.prototype.slice.call(arguments, 1);
+	return function(){
+		var innerArg = Array.prototype.slice.call(arguments, 0);
+		return me.apply(scope, innerArg.concat(outerArg));
+	};
+};
+
+// Array.prototype.insertBefore
+Array.prototype.insertBefore = function(index, value){
+	this.splice(index, 0, value);
+};
+
+// Array.prototype.del
+Array.prototype.del = function(index){
+	this.splice(index, 1);
+};
+
+// Number.prototype.pad
+Number.prototype.pad = function(length){
+	var num = this.toString().split(".")[0];
+	if(length - num.length > -1){
+		return Array(length - num.length + 1).join("0") + num;
+	}else{
+		return num;
+	}
+};
+
+Ucren = {
+
+	//
+	// [全局属性]
+	//
+
+	// Ucren.isIe
+	isIe: /msie/i.test(navigator.userAgent),
+
+	// Ucren.isIe6
+	isIe6: /msie 6/i.test(navigator.userAgent),
+
+	// Ucren.isFirefox
+	isFirefox: /firefox/i.test(navigator.userAgent),
+
+	// Ucren.isSafari
+	isSafari: /safari/i.test(navigator.userAgent),
+
+	// Ucren.isOpera
+	isOpera: /opera/i.test(navigator.userAgent),
+
+	// Ucren.isChrome
+	isChrome: /chrome/i.test(navigator.userAgent), //todo isChrome = true, isSafari = true
+
+	// Ucren.isStrict
+	isStrict: document.compatMode == "CSS1Compat",
+
+	// Ucren.tempDom
+	tempDom: document.createElement("div"),
+
+	//
+	// [全局方法]
+	//
+
+	// Ucren.nul
+	nul: function(){
+		return false;
+	},
+
+	// Ucren.apply
+	apply: function(form, to, except){
+		if(!to)to = {};
+		if(except){
+			Ucren.each(form, function(item, key){
+				if(key in except){
+					return ;
+				}
+				to[key] = item;
+			});
+		}else{
+			Ucren.each(form, function(item, key){
+				to[key] = item;
+			});
+		}
+		return to;
+	},
+
+	// Ucren.addEvent
+	addEvent: function(target, name, fn){
+		var call = function(){
+			fn.apply(target, arguments);
+		};
+		if(target.dom){
+			target = target.dom;
+		}
+		if(window.attachEvent){
+			target.attachEvent("on" + name, call);
+		}else if(window.addEventListener){
+			target.addEventListener(name, call, false);
+		}else{
+			target["on" + name] = call;
+		}
+		return call;
+	},
+
+	// Ucren.delEvent
+	delEvent: function(target, name, fn){
+		if(window.detachEvent){
+			target.detachEvent("on" + name, fn);
+		}else if(window.removeEventListener){
+			target.removeEventListener(name, fn, false);
+		}else if(target["on" + name] == fn){
+			target["on" + name] = null;
+		}
+	},
+
+	// Ucren.getZIndex
+	getZIndex: function(name){
+		var callee = arguments.callee;
+		switch(name){
+			case "window":
+				return callee.winIndex = ++ callee.winIndex || 10000;
+			case "menu":
+				return callee.menuIndex = ++ callee.menuIndex || 20000;
+		}
+	},
+
+	// Ucren.Class
+	Class: function(initialize, methods, befores, afters){
+		var fn, prototype, blank;
+		initialize = initialize || function(){};
+		methods = methods || {};
+		blank = {};
+		fn = function(){
+			this.instanceId = Ucren.id();
+			initialize.apply(this, arguments);
+		};
+		prototype = fn.prototype;
+		Ucren.registerClassEvent.call(prototype);
+		Ucren.each(methods, function(item, key){
+			prototype[key] = function(method, name){
+				if(typeof(method) == "function"){
+					return function(){
+						var args, rtn;
+						args = Array.prototype.slice.call(arguments, 0);
+						if(befores &&
+							befores.apply(this, [name].concat(args)) === false){
+							return ;
+						}
+						this.fireEvent("before" + name, args);
+						rtn = method.apply(this, args);
+						if(afters)
+							afters.apply(this, [name].concat(args));
+						this.fireEvent(name, args);
+						return rtn;
+					};
+				}else{
+					return method;
+				}
+			}(item, key);
+		});
+		return fn;
+	},
+
+	//private
+	registerClassEvent: function(){
+		this.on = function(name, fn){
+			var instanceId = this.instanceId;
+			Ucren.dispatch(instanceId + name, fn.bind(this));
+		};
+		this.onbefore = function(name, fn){
+			var instanceId = this.instanceId;
+			Ucren.dispatch(instanceId + "before" + name, fn.bind(this));
+		};
+		this.un = function(name, fn){
+			//todo
+		};
+		this.fireEvent = function(name, args){
+			var instanceId = this.instanceId;
+			Ucren.dispatch(instanceId + name, args);
+		};
+	},
+
+	// Ucren.createLayer
+	createLayer: function(){
+		var create = function(){
+			var layer = document.createElement("div");
+			document.body.appendChild(layer);
+			return layer;
+		}
+		return function(conf){
+			var layer;
+			conf = Ucren.fixConfig(conf);
+			if(conf.id){
+				if(layer = document.getElementById(conf.id)){
+					return layer;
+				}else{
+					layer = create();
+					layer.id = conf.id;
+				}
+			}else{
+				layer = create();
+			}
+			return layer;
+		};
+	}(),
+
+	// Ucren.createFuze
+	createFuze: function(){
+		var queue, fn, infire;
+		queue = [];
+		fn = function(process){
+			if(infire){
+				process();
+			}else{
+				queue.push(process);
+			}
+		};
+		fn.fire = function(){
+			while(queue.length){
+				queue.shift()();
+			}
+			infire = true;
+		};
+		fn.extinguish = function(){
+			infire = false;
+		};
+		fn.wettish = function(){
+			this.fire();
+			this.extinguish();
+		};
+		return fn;
+	},
+
+	// Ucren.createIf
+	createIf: function(expressionFunction){
+		return function(callback){
+			var expression = expressionFunction();
+			var returnValue = {
+				Else: function(callback){
+					callback = callback || nul;
+					expression || callback();
+				}
+			};
+			callback = callback || nul;
+			expression && callback();
+			return returnValue;
+		};
+	},
+
+	// Ucren.dispatch
+	dispatch: function(arg1, arg2, arg3){
+		var fn, send, incept;
+
+		if(typeof(arg2) == "undefined"){
+			arg2 = [];
+		}
+
+		fn = arguments.callee;
+		if(!fn.map){
+			fn.map = {};
+		}
+
+		send = function(processId, args, scope){
+			var map, processItems;
+			map = fn.map;
+			if(processItems = map[processId]){
+				Ucren.each(processItems, function(item){
+					item.apply(scope, args);
+				});
+			}
+		};
+
+		incept = function(processId, fun){
+			var map;
+			map = fn.map;
+			if(!map[processId]){
+				map[processId] = [];
+			}
+			map[processId].push(fun);
+		};
+
+		if(typeof(arg2) == "function"){
+			incept.apply(this, arguments);
+		}else if(arg2 instanceof Array){
+			send.apply(this, arguments);
+		}
+	},
+
+	// Ucren.fixNumber
+	fixNumber: function(unknown, defaultValue){
+		return typeof(unknown) == "number" ? unknown : defaultValue;
+	},
+
+	// Ucren.fixString
+	fixString: function(unknown, defaultValue){
+		return typeof(unknown) == "string" ? unknown : defaultValue;
+	},
+
+	// Ucren.fixConfig
+	fixConfig: function(conf){
+		var defaultConf;
+		defaultConf = {};
+		return typeof(conf) == "undefined" ? defaultConf : conf;
+	},
+
+	// Ucren.handle
+	handle: function(unknown){
+		var fn, type, number;
+		fn = arguments.callee;
+		if(!fn.cache){
+			fn.cache = {};
+		}
+		if(typeof(fn.number) == "undefined"){
+			fn.number = 0;
+		}
+		type = typeof(unknown);
+		if(type == "number"){
+			return fn.cache[unknown.toString()];
+		}else if(type == "object" || type == "function"){
+			number = fn.number ++;
+			fn.cache[number.toString()] = unknown;
+			return number;
+		}
+	},
+
+	// Ucren.id
+	id: function(){
+		var id = arguments.callee;
+		id.number = ++ id.number || 0;
+		return "_" + id.number;
+	},
+
+	// Ucren.nameSpace
+	nameSpace: function(path){
+		if(typeof(path) == "string"){
+			var parts, part, rtn;
+			parts = path.split(".");
+			rtn = window;
+			while(parts.length){
+				part = parts.shift();
+				if(typeof(rtn[part]) != "object" &&
+					typeof(rtn[part]) != "function"){
+					rtn[part] = {};
+				}
+				rtn = rtn[part];
+			}
+			return rtn;
+		}
+	},
+
+	// Ucren.queryString
+	queryString: function(name, sourceString){
+		var source, pattern, result;
+		source = sourceString || location.href;
+		pattern = new RegExp("(\\?|&)" + name + "=([^&#]*)(#|&|$)", "i");
+		result = source.match(pattern);
+		return result ? result[2] : "";
+	},
+
+	// Ucren.randomNumber
+	randomNumber: function(num){
+		return Math.floor(Math.random() * num);
+	},
+
+	// Ucren.randomWord
+	randomWord: function(){
+		var cw = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+		return function(length, sourceString){
+			var words, re = [];
+			words = sourceString || cw;
+			Ucren.each(length, function(index){
+				re[index] = words.charAt(this.randomNumber(words.length));
+			}.bind(this));
+			return re.join("");
+		}
+	}(),
+
+	// Ucren.Element
+	Element: function(el, returnDom){
+		var rtn, handleId;
+		if(el && el.isUcrenElement){
+			return returnDom ? el.dom : el;
+		}
+		el = typeof(el) == "string" ? document.getElementById(el) : el;
+
+		if(!el)
+			return null;
+
+		if(returnDom)
+			return el;
+
+		handleId = el.getAttribute("handleId");
+		if(typeof handleId == "string"){
+			return Ucren.handle(handleId - 0);
+		}else{
+			rtn = new Ucren.BasicElement(el);
+			handleId = Ucren.handle(rtn);
+			el.setAttribute("handleId", handleId + "");
+			return rtn;
+		}
+	},
+
+	// Ucren.Event
+	Event: function(e){
+		e = e || window.event;
+
+		if(!e){
+			var c = arguments.callee.caller;
+			while(c){
+				e = c.arguments[0];
+				if(e && typeof(e.altKey) == "boolean"){ // duck typing
+					break;
+				}
+				c = c.caller;
+				e = null;
+			}
+		}
+
+		return e;
+	},
+
+	// Ucren.each
+	each: function(unknown, fn){
+		if(unknown instanceof Array || (typeof unknown == "object" && unknown.length)){
+			if(typeof unknown == "object" && Ucren.isSafari)
+				unknown = Array.prototype.slice.call(unknown);
+			for(var i = 0, l = unknown.length; i < l; i ++){
+				if(fn(unknown[i], i) === false){
+					break;
+				}
+			}
+		}else if(typeof(unknown) == "object"){
+			var blank = {};
+			for(var i in unknown){
+				if(blank[i]){
+					continue;
+				}
+				if(fn(unknown[i], i) === false){
+					break;
+				}
+			}
+		}else if(typeof(unknown) == "number"){
+			for(var i = 0; i < unknown; i ++){
+				if(fn(i, i) === false){
+					break;
+				}
+			}
+		}else if(typeof(unknown) == "string"){
+			for(var i = 0, l = unknown.length; i < l; i ++){
+				if(fn(unknown.charAt(i), i) === false){
+					break;
+				}
+			}
+		}
+	},
+
+	// Ucren.request
+	request: function(url, callback){
+		request = Ucren.request;
+		var xhr = request.xhr;
+		if(!request.xhr){
+			if(window.XMLHttpRequest){
+				xhr = request.xhr = new XMLHttpRequest();
+			}else{
+				xhr = request.xhr = new ActiveXObject("Microsoft.XMLHTTP");
+			}
+		}
+		xhr.open("GET", url, true);
+		xhr.onreadystatechange = function(){
+			if(xhr.readyState == 4 && xhr.status == 200){
+				callback(xhr.responseText);
+			}
+		};
+		xhr.send(null);
+	},
+
+	// Ucren.loadImage
+	loadImage: function(urls, onLoadComplete){
+		var length = urls.length;
+		var loaded = 0;
+		var check = function(){
+			if(loaded == length)
+				onLoadComplete && onLoadComplete();
+		};
+		Ucren.each(urls, function(url){
+			var img = document.createElement("img");
+			img.onload = img.onerror = function(){
+				this.onload = this.onerror = null;
+				loaded ++;
+				check();
+			};
+			Ucren.tempDom.appendChild(img);
+			img.src = url;
+		});
+	},
+
+	// Ucren.loadScript
+	loadScript: function(){
+		var extEval = function(code){
+			code = code.replace(/for\((.*?); ?(.+?);\)\{/g, function(s, partA, partB){
+				partA = partA || "i";
+				return ["for(var ", partA, " = 0, _l = ", partB, "; ", partA, " < _l; ", partA, " ++){"].join("");
+			});
+			eval(code);
+		};
+		return function(src, callback){
+			Ucren.request(src, function(text){
+				extEval(text);
+				callback && callback(text);
+			});
+		};
+	}(),
+
+	// Ucren.appendStyle
+	appendStyle: function(text){
+		var style;
+		if(document.createStyleSheet){
+			style = document.createStyleSheet();
+			style.cssText = text;
+		}else{
+			style = document.createElement("style");
+			style.type = "text/css";
+			//style.innerHTML = text; fix Chrome bug
+			style.appendChild(document.createTextNode(text));
+			document.getElementsByTagName("head")[0].appendChild(style);
+		}
+	},
+
+	// Ucren.toggle
+	toggle: function(args){
+		var map = {}, length;
+		args = Array.prototype.slice.call(args, 0);
+		length = args.length;
+		Ucren.each(args, function(value, key){
+			map[String(value)] = key;
+		});
+		return {
+			getNext: function(value){
+				var index = map[value] + 1;
+				if(index == length)
+					index = 0;
+				return args[index];
+			}
+		};
+	}
+};
+
+//
+// [全局属性 2]
+//
+
+// Ucren.bootFilePath
+Ucren.bootFilePath = function(){
+	var script, src;
+	script = document.getElementsByTagName("script");
+	for(var i = 0, r, l = script.length; i < l; i ++){
+		r = script[i];
+		src = r.getAttribute("src");
+		if(/boot\.js/i.test(src)){
+			break;
+		}
+	}
+	return src;
+}();
+
+// Ucren.appPath
+Ucren.appPath = function(){
+	var src, index;
+	src = Ucren.bootFilePath;
+	index = src.indexOf("?");
+	if(index == -1){
+		index = src.length;
+	}
+	src = src.slice(0, index - 7);
+	return src;
+}();
+
+// Ucren.currentSkin
+Ucren.currentSkin = function(){
+	var skin;
+	skin = Ucren.queryString("skin", Ucren.bootFilePath);
+	return skin || "default";
+}();
+
+// Ucren.currentSkinPath
+Ucren.currentSkinPath =
+	Ucren.appPath + "resource/skins/" + Ucren.currentSkin + "/";
+
+//
+// [动画相关]
+//
+
+// Ucren.SimpleAnimation
+Ucren.SimpleAnimation = Ucren.Class(
+	/* constructor */ function(conf){
+		conf = conf || {};
+
+		var defaultFormula = function(start, end){
+			var diff = end - start;
+			var returnValue = start;
+			if(diff){
+				returnValue += diff > 0 ?
+					Math.ceil(diff / 5) : Math.floor(diff / 5);
+			}
+			return returnValue;
+		};
+
+		this.formula = conf.formula || defaultFormula;
+		this.value = conf.value || 0;
+		this.callback = conf.callback || Ucren.nul;
+		this.timeout = conf.timeout || 20;
+
+		this.start = this.start.bind(this);
+	},
+
+	/* methods */ {
+		setValue: function(value){
+			this.targetValue = value;
+			if(!this.timer)
+				this.start();
+		},
+
+		//private
+		start: function(){
+			if(this.value != this.targetValue){
+				this.value = this.formula(this.value, this.targetValue);
+				this.callback(this.value);
+				this.timer = setTimeout(this.start, this.timeout);
+			}else{
+				this.stop();
+			}
+		},
+
+		//private
+		stop: function(){
+			clearTimeout(this.timer);
+			this.timer = 0;
+		}
+	}
+);
+
+//
+// [集中管理器]
+//
+
+// Ucren.MenuOperator
+Ucren.MenuOperator = {
+	cache: [],
+
+	addInstance: function(item){
+		this.cache.push(item);
+	},
+
+	hideAll: function(){
+		var cache = this.cache;
+		Ucren.each(cache, function(item, key){
+			if(!item){
+				return ;
+			}
+			if(typeof(item.hideMenu) == "function"){
+				item.hideMenu();
+				return ;
+			}
+			if(typeof(item.collapse) == "function"){
+				item.collapse();
+			}
+		});
+	}
+};
+
+//
+// [底层操作类]
+//
+
+// Ucren.BasicDrag
+Ucren.BasicDrag = Ucren.Class(
+	/* constructor */ function(conf){
+		conf = Ucren.fixConfig(conf);
+		this.type = Ucren.fixString(conf.type, "normal");
+	},
+
+	/* methods */ {
+		bind: function(el, handle){
+			el = Ucren.Element(el);
+			handle = Ucren.Element(handle) || el;
+			handle.addEvents({
+				mousedown: function(e){
+					e = Ucren.Event(e);
+					e.cancelBubble = true;
+					e.stopPropagation && e.stopPropagation();
+					this.startDrag();
+					return e.returnValue = false;;
+				}.bind(this)
+			});
+			this.target = el;
+		},
+
+		//private
+		startDrag: function(){
+			var target, draging, e;
+			target = this.target;
+			draging = target.draging = {};
+
+			this.isDraging = true;
+
+			draging.x = parseInt(target.getStyle("left"), 10) || 0;
+			draging.y = parseInt(target.getStyle("top"), 10) || 0;
+
+			e = Ucren.Event();
+			draging.mouseX = e.clientX;
+			draging.mouseY = e.clientY;
+
+			this.registerDocumentEvent();
+			this.createScope();
+		},
+
+		//private
+		endDrag: function(){
+			this.isDraging = false;
+			this.unRegisterDocumentEvent();
+			this.removeScope();
+		},
+
+		//private
+		registerDocumentEvent: function(){
+			var target, draging;
+			target = this.target;
+			draging = target.draging;
+
+			draging.documentSelectStart =
+				Ucren.addEvent(document, "selectstart", function(e){
+					e = e || event;
+					e.stopPropagation && e.stopPropagation();
+					e.cancelBubble = true;
+					return e.returnValue = false;
+				});
+
+			draging.documentMouseMove =
+				Ucren.addEvent(document, "mousemove", function(e){
+					var ie, nie;
+					e = e || event;
+					ie = Ucren.isIe && e.button != 1;
+					nie = !Ucren.isIe && e.button != 0;
+					if(ie || nie)
+						this.endDrag();
+					draging.newMouseX = e.clientX;
+					draging.newMouseY = e.clientY;
+				}.bind(this));
+
+			draging.documentMouseUp =
+				Ucren.addEvent(document, "mouseup", function(){
+					this.endDrag();
+				}.bind(this));
+
+			draging.timer = setInterval(function(){
+				var x, y, dx, dy;
+				if(draging.newMouseX){
+					dx = draging.newMouseX - draging.mouseX;
+					dy = draging.newMouseY - draging.mouseY;
+					x = draging.x + dx;
+					y = draging.y + dy;
+					if(this.type == "calc"){
+						this.returnValue(dx, dy, x, y);
+					}else{
+						target.left(x).top(y);
+					}
+				}
+			}.bind(this), 10);
+		},
+
+		//private
+		unRegisterDocumentEvent: function(){
+			var draging = this.target.draging;
+			Ucren.delEvent(document, "mousemove", draging.documentMouseMove);
+			Ucren.delEvent(document, "mouseup", draging.documentMouseUp);
+			Ucren.delEvent(document, "selectstart",
+				draging.documentSelectStart);
+			clearInterval(draging.timer);
+		},
+
+		//private
+		createScope: function(){
+			var scope;
+			scope = Ucren.createLayer({
+				id: "ucrenlite-dragscope"
+			});
+			if(!scope.className){
+				scope.className = "ucrenlite-dragscope";
+				scope.onselectstart = function(){
+					return false;
+				};
+			}
+			scope.style.display = "block";
+		},
+
+		//private
+		removeScope: function(){
+			setTimeout(function(){
+				var scope;
+				scope = document.getElementById("ucrenlite-dragscope");
+				if(scope){
+					scope.style.display = "none";
+				}
+			}, 100);
+		},
+
+		//private
+		returnValue: function(dx, dy){
+			//todo something
+		}
+	}
+);
+
+// Ucren.DragDrop
+Ucren.DragDrop = Ucren.Class(
+	/* constructor */ function(conf){
+		conf = Ucren.fixConfig(conf);
+	},
+
+	/* methods */ {
+		bind: function(el, handle){
+			el = Ucren.Element(el);
+			handle = Ucren.Element(handle) || el;
+			this.disposeDotted(el, handle);
+			this.disposeDragDrop(el, handle);
+			this.disposeEvents(el, handle);
+		},
+
+		//private
+		disposeDotted: function(el, handle){
+			var dotted;
+			dotted = new Ucren.DottedBorder({
+				left: parseInt(el.getStyle("left"), 10) || 0,
+				top: parseInt(el.getStyle("top"), 10) || 0,
+				width: el.width() || parseInt(el.getStyle("width"), 10) || 0,
+				height: el.height() || parseInt(el.getStyle("height"), 10) || 0
+			});
+			dotted.render();
+			this.dotted = dotted;
+		},
+
+		//private
+		disposeDragDrop: function(el, handle){
+			var dragdrop;
+			dragdrop = new Ucren.BasicDrag({
+				type: "calc"
+			});
+			dragdrop.bind(el, handle);
+			this.dragdrop = dragdrop;
+		},
+
+		//private
+		disposeEvents: function(el, handle){
+			var ox, oy, dotted, dragdrop;
+			dotted = this.dotted;
+			dragdrop = this.dragdrop;
+			handle.addEvents({
+				mousedown: function(e){
+					ox = dotted.left;
+					oy = dotted.top;
+					dotted.display(true);
+					e = e || event;
+					e.cancelBubble = true;
+					e.stopPropagation && e.stopPropagation();
+					return e.returnValue = false;
+				}
+			});
+			dragdrop.on("returnValue", function(dx, dy){
+				dotted.moveTo(ox + dx, oy + dy);
+			});
+			dragdrop.on("endDrag", function(){
+				el.left(dotted.left).top(dotted.top);
+				dotted.display(false);
+			});
+		}
+	}
+);
+
+// Ucren.Template
+Ucren.Template = Ucren.Class(
+	/* constructor */ function(){
+		this.string = Array.prototype.join.call(arguments, "");
+	},
+
+	/* methods */ {
+		apply: function(conf){
+			return this.string.format(conf);
+		}
+	}
+);
+
+// Ucren.BasicElement
+Ucren.BasicElement = Ucren.Class(
+	/* constructor */ function(el){
+		this.dom = el;
+	},
+
+	/* methods */ {
+		isUcrenElement: true,
+
+		getStyle: function(){
+			return Ucren.isIe ?
+
+			function(name){
+				return this.dom.currentStyle[name];
+			} :
+
+			function(name){
+				var style;
+				style = document.defaultView.getComputedStyle(this.dom, null);
+				return style.getPropertyValue(name);
+			};
+		}(),
+
+		setClass: function(name){
+			if(typeof(name) == "string"){
+				this.dom.className = name.trim();
+			}
+		},
+
+		addClass: function(name){
+			var el, className;
+			el = this.dom;
+			className = " " + el.className + " ";
+			if(className.indexOf(" " + name + " ") == -1){
+				className += name;
+				el.className = className.trim();
+			}
+			return this;
+		},
+
+		delClass: function(name){
+			var el, className;
+			el = this.dom;
+			className = " " + el.className + " ";
+			if(className.indexOf(" " + name + " ") > -1){
+				className = className.replace(" " + name + " ", " ");
+				el.className = className.trim();
+			}
+			return this;
+		},
+
+		html: function(html){
+			var el = this.dom;
+			if(typeof(html) != "undefined"){
+				el.innerHTML = html;
+				return this;
+			}else{
+				return el.innerHTML;
+			}
+		},
+
+		left: function(number){
+			var el = this.dom;
+			if(typeof(number) == "number"){
+				el.style.left = number + "px";
+				return this;
+			}else{
+				return this.getPos().x;
+			}
+		},
+
+		top: function(number){
+			var el = this.dom;
+			if(typeof(number) == "number"){
+				el.style.top = number + "px";
+				return this;
+			}else{
+				return this.getPos().y;
+			}
+		},
+
+		width: function(number){
+			var el = this.dom;
+			if(typeof(number) == "number"){
+				el.style.width = number + "px";
+				return this;
+			}else{
+				return el.clientWidth;
+			}
+		},
+
+		height: function(number){
+			var el = this.dom;
+			if(typeof(number) == "number"){
+				el.style.height = number + "px";
+				return this;
+			}else{
+				return el.clientHeight;
+			}
+		},
+
+		border: function(string){
+			var el = this.dom;
+			string = string || "0";
+			el.style.border = string;
+			return this;
+		},
+
+		lineHeight: function(number){
+			var el = this.dom;
+			number = Ucren.fixNumber(number, 0);
+			el.style.lineHeight = number + "px";
+			return this;
+		},
+
+		floatLeft: function(){
+			var style = this.dom.style;
+			style.cssFloat =
+			style.styleFloat = "left";
+		},
+
+		absolute: function(){
+			var style = this.dom.style;
+			style.position = "absolute";
+			style.left =
+			style.top = "0px";
+		},
+
+		display: function(bool){
+			var dom = this.dom;
+			if(typeof(bool) == "boolean"){
+				dom.style.display = bool ? "block" : "none";
+			}else{
+				return this.getStyle("display") != "none";
+			}
+		},
+
+		first: function(){
+			var c = this.dom.firstChild;
+			while(c && !c.tagName && c.nextSibling){
+				c = c.nextSibling;
+			}
+			return c;
+		},
+
+		add: function(dom){
+			var el;
+			el = Ucren.Element(dom);
+			this.dom.appendChild(el.dom);
+		},
+
+		remove: function(){
+			var el;
+			el = Ucren.Element(dom);
+			this.dom.removeChild(el.dom);
+		},
+
+		insert: function(dom){
+			var tdom;
+			tdom = this.dom;
+			if(tdom.firstChild){
+				tdom.insertBefore(dom, tdom.firstChild);
+			}else{
+				this.add(dom);
+			}
+		},
+
+		addEvents: function(conf){
+			var blank, el, rtn;
+			blank = {};
+			rtn = {};
+			el = this.dom;
+			Ucren.each(conf, function(item, key){
+				rtn[key] = Ucren.addEvent(el, key, item);
+			});
+			return rtn;
+		},
+
+		delEvents: function(conf){
+			var blank, el;
+			blank = {};
+			el = this.dom;
+			Ucren.each(conf, function(item, key){
+				Ucren.delEvent(el, key, item);
+			});
+		},
+
+		getPos: function(){
+			var el, parentNode, pos, box, offset;
+			el = this.dom;
+			pos = {};
+
+			if(el.getBoundingClientRect){
+				box = el.getBoundingClientRect();
+				offset = Ucren.isIe ? 2 : 0;
+				var doc = document;
+				var scrollTop = Math.max(doc.documentElement.scrollTop,
+					doc.body.scrollTop);
+				var scrollLeft = Math.max(doc.documentElement.scrollLeft,
+					doc.body.scrollLeft);
+				return {
+					x: box.left + scrollLeft - offset,
+					y: box.top + scrollTop - offset
+				};
+			}else{
+				pos = {
+					x: el.offsetLeft,
+					y: el.offsetTop
+				};
+				parentNode = el.offsetParent;
+				if(parentNode != el){
+					while(parentNode){
+						pos.x += parentNode.offsetLeft;
+						pos.y += parentNode.offsetTop;
+						parentNode = parentNode.offsetParent;
+					}
+				}
+				if(Ucren.isSafari && this.getStyle("position") == "absolute"){ // safari doubles in some cases
+					pos.x -= document.body.offsetLeft;
+					pos.y -= document.body.offsetTop;
+				}
+			}
+
+			if(el.parentNode){
+				parentNode = el.parentNode;
+			}else{
+				parentNode = null;
+			}
+
+			while(parentNode && parentNode.tagName.toUpperCase() != "BODY" &&
+				parentNode.tagName.toUpperCase() != "HTML"){ // account for any scrolled ancestors
+				pos.x -= parentNode.scrollLeft;
+				pos.y -= parentNode.scrollTop;
+				if(parentNode.parentNode){
+					parentNode = parentNode.parentNode;
+				}else{
+					parentNode = null;
+				}
+			}
+
+			return pos;
+		},
+
+		getSize: function(){
+			var size, dom, width, height;
+			size = {};
+			dom = this.dom;
+			width = this.getStyle("width");
+			height = this.getStyle("height");
+
+			if(width && width != "auto"){
+				size.width = parseInt(width, 10);
+			}else{
+				size.width = dom.offsetWidth;
+			}
+
+			if(height && height != "auto"){
+				size.height = parseInt(height, 10);
+			}else{
+				size.height = dom.offsetHeight;
+			}
+
+			return size;
+		},
+
+		observe: function(el, fn){
+			el = Ucren.Element(el);
+			el.on("resize", fn.bind(this));
+		},
+
+		usePNGbackground: function(image){
+			var dom;
+			dom = this.dom;
+			if(/\.png$/i.test(image) && Ucren.isIe6){
+				dom.style.filter =
+					"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" +
+					image + "',sizingMethod='scale');";
+			}else{
+				dom.style.backgroundImage = "url(" + image + ")";
+			}
+		},
+
+		formatCover: function(count){
+			var result = [];
+			this.addClass("ucrenlite-overlap");
+			Ucren.each(count, function(index){
+				var item = document.createElement("div");
+				item.className = "cover";
+				item.style.top = "-" + (index * 100) + "%";
+				this.add(item);
+				result.push(item);
+			}.bind(this));
+			return result;
+		},
+
+		setAlpha: function(n){
+			var style = this.dom.style;
+			if(Ucren.isIe)
+				style.filter = "alpha(opacity=" + n + ")";
+			else
+				style.opacity = n / 100;
+		},
+
+		showIn: function(){
+			var f = this.setAlpha.infrequently(10);
+			for(var i = 0; i <= 100; i += 10)
+				f.call(this, i);
+		}
+	}
+);
+
+// Ucren.DataStack
+Ucren.DataStack = Ucren.Class(
+	/* constructor */ function(conf){
+		conf = Ucren.fixConfig(conf);
+		this.fields = conf.fields || [];
+		this.records = conf.records || [];
+		this.go(0);
+	},
+
+	/* methods */ {
+		go: function(number){
+			this.pointer = Ucren.fixNumber(number, 0);
+			this.currentRecord = this.records[this.pointer];
+		},
+
+		pos: function(name, value){
+			Ucren.each(this.records, function(item, key){
+				if(item[name] === value){
+					this.go(i);
+					return false;
+				}
+			}.bind(this));
+		},
+
+		load: function(records){
+			this.records = records || [];
+			this.go(0);
+		},
+
+		loadFromXml: function(file){
+			//todo
+		},
+
+		read: function(unknown){
+			var type = typeof(unknown);
+			switch(type){
+				case "number":
+					return this.records[unknown];
+					break;
+				case "string":
+					return this.currentRecord[unknown];
+					break;
+				default:
+					return this.currentRecord;
+					break;
+			}
+		},
+
+		append: function(record){
+			this.records.push(record);
+		},
+
+		insertBefore: function(index, record){
+			this.records.insertBefore(index, record);
+		},
+
+		del: function(n){
+			this.records.del(n);
+			this.go(0);
+		},
+
+		edit: function(name, value){
+			this.currentRecord[name] = value;
+		},
+
+		sortBy: function(name, type){
+			type = Ucren.fixString(type, "asc");
+			switch(type){
+				case "asc":
+					this.records.sort(function(a, b){
+						return a[name] < b[name] ? -1 : 1;
+					});
+					break;
+				case "desc":
+					this.records.sort(function(a, b){
+						return a[name] > b[name] ? -1 : 1;
+					});
+					break;
+			}
+		},
+
+		count: function(){
+			return this.records.length;
+		},
+
+		each: function(fn){
+			Ucren.each(this.records, fn);
+		}
+	}
+);
+
+// Ucren.Timer
+Ucren.Timer = Ucren.Class(
+	/* constructor */ function(conf){
+		conf = Ucren.fixConfig(conf);
+		this.interval = Ucren.fixNumber(conf.interval, 100);
+	},
+
+	/* methods */ {
+		start: function(){
+			//private
+			clearInterval(this.timer);
+			this.timer = setInterval(this.fireEvent.saturate(this, "doing"),
+				this.interval);
+		},
+
+		stop: function(){
+			clearInterval(this.timer);
+		}
+	}
+);
+
+//
+// [基础控件]
+//
+
+// Ucren.BasicColor
+Ucren.BasicColor = Ucren.Class(
+	/* constructor */ function(conf){
+		conf = Ucren.fixConfig(conf);
+		this.startColor = conf.startColor;
+		this.endColor = conf.endColor;
+		this.maxIndex = conf.maxIndex;
+		this.cache = {};
+	},
+
+	/* methods */ {
+		init: function(){
+			this.startColor = this.decode(this.startColor);
+			this.endColor = this.decode(this.endColor);
+		},
+
+		getColorByIndex: function(){
+			var x = function(a, b, i, c){
+				return a + Math.round((b - a) * (i / c));
+			};
+
+			return function(index){
+				var red, green, blue, start, end, pc;
+
+				if(this.cache[index]){
+					return this.cache[index];
+				}
+
+				pc = this.maxIndex;
+				start = this.startColor;
+				end = this.endColor;
+
+				var y = x.pack(function(a, b){
+					return this.call(this, a, b, index, pc);
+				});
+
+				red = y(start.red, end.red);
+				green = y(start.green, end.green);
+				blue = y(start.blue, end.blue);
+
+				y = this.encode({
+					red: red,
+					green: green,
+					blue: blue
+				});
+
+				return this.cache[index] = y;
+			}
+		}(),
+
+		//private
+		decode: function(){
+			var r = /^\#?(\w{2})(\w{2})(\w{2})$/;
+			var x = function(x){
+				return parseInt(x, 16);
+			};
+			return function(color){
+				r.test(color);
+				return {
+					red: x(RegExp.$1),
+					green: x(RegExp.$2),
+					blue: x(RegExp.$3)
+				};
+			}
+		}(),
+
+		//private
+		encode: function(){
+			var x = function(x){
+				return x.toString(16);
+			};
+			x = x.pack(function(x){
+				x = this.call(this, x);
+				if(x.length == 1){
+					return "0" + x;
+				}else{
+					return x;
+				}
+			});
+			return function(data){
+				return ["#", x(data.red), x(data.green), x(data.blue)].join("");
+			}
+		}()
+	}
+);
+
+// Ucren.BasicLayer
+Ucren.BasicLayer = Ucren.Class(
+	/* constructor */ function(conf){
+		conf = Ucren.fixConfig(conf);
+		this.container = Ucren.Element(conf.container);
+		this.type = Ucren.fixString(conf.type, "thickboard").toLowerCase();
+		this.width = Ucren.fixNumber(conf.width, 100);
+		this.height = Ucren.fixNumber(conf.height, 100);
+		this.outsideId = Ucren.id();
+		this.insideId = Ucren.id();
+		this.mainboardId = Ucren.id();
+		this.innerElement = Ucren.Element(conf.innerElement);
+	},
+
+	/* methods */ {
+		render: function(){
+			var container, html, firstdom, mainboard;
+			container = this.container;
+			html = Ucren.BasicLayer.template.apply({
+				outsideId: this.outsideId,
+				insideId: this.insideId,
+				mainboardId: this.mainboardId
+			});
+
+			if(firstdom = container.first()){
+				Ucren.tempDom.appendChild(firstdom);
+			}
+
+			container.html(html);
+			mainboard = Ucren.Element(this.mainboardId);
+
+			if(firstdom){
+				mainboard.add(firstdom);
+				firstdom.className += " ucrenlite-basiclayer-mainboard-inner";
+
+				//private
+				this.innerElement = Ucren.Element(firstdom);
+			}else if(this.innerElement){
+				mainboard.add(this.innerElement);
+				this.innerElement.addClass("ucrenlite-basiclayer-mainboard-inner");
+			}
+
+			this.outside = Ucren.Element(this.outsideId);
+			this.inside = Ucren.Element(this.insideId);
+			this.mainboard = Ucren.Element(this.mainboardId);
+			this.changeType(this.type);
+			this.adjustSize();
+		},
+
+		adjustSize: function(){
+			this.outside.width(this.width - 2).height(this.height - 2);
+			this.inside.width(this.width - 4).height(this.height - 4);
+			this.mainboard.width(this.width - 4).height(this.height - 4);
+		},
+
+		changeType: function(name){
+			name = name || this.type;
+			this.outside.setClass("ucrenlite-basiclayer-border-outside ucrenlite-basiclayer-border-outside_" + name);
+			this.inside.setClass("ucrenlite-basiclayer-border-inside ucrenlite-basiclayer-border-inside_" + name);
+			this.mainboard.setClass("ucrenlite-basiclayer-mainboard ucrenlite-basiclayer-mainboard_" + name);
+		},
+
+		resizeTo: function(width, height){
+			this.width = Ucren.fixNumber(width, 4);
+			this.height = Ucren.fixNumber(height, 4);
+			this.adjustSize();
+		}
+	}
+);
+
+Ucren.BasicLayer.template = new Ucren.Template(
+	"<div id='@{outsideId}'>",
+		"<div id='@{insideId}'>",
+			"<div id='@{mainboardId}'>",
+			"</div>",
+		"</div>",
+	"</div>");
+
+// Ucren.ComplexLayer
+Ucren.ComplexLayer = Ucren.Class(
+	/* constructor */ function(conf){
+		conf = Ucren.fixConfig(conf);
+		this.layer = new Ucren.BasicLayer(conf);
+		this.events = conf.events;
+		this.eventScope = Ucren.Element(conf.eventScope);
+		this.disabled = !! conf.disabled;
+	},
+
+	/* methods */ {
+		render: function(){
+			this.layer.render();
+			this.registerEvents();
+		},
+
+		disabledEvents: function(bool){
+			this.disabled = !! bool;
+		},
+
+		registerEvents: function(){
+			var scope, events;
+			scope = this.eventScope;
+			events = this.events;
+
+			var callEvent = function(fn, thiz){
+				return function(){
+					if(thiz.disabled){
+						return false;
+					}
+					return fn.apply(thiz, arguments);
+				}
+			};
+
+			if(scope && events){
+				Ucren.each(events, function(value, key){
+					events[key] = callEvent(value, this);
+				}.bind(this));
+				scope.addEvents(events);
+			}
+		}
+	}
+);
+
+// Ucren.DottedBorder
+Ucren.DottedBorder = Ucren.Class(
+	/* constructor */ function(conf){
+		conf = Ucren.fixConfig(conf);
+		this.width = Ucren.fixNumber(conf.width, 100);
+		this.height = Ucren.fixNumber(conf.height, 100);
+		this.left = Ucren.fixNumber(conf.left, 0);
+		this.top = Ucren.fixNumber(conf.top, 0);
+		this.visible = false;
+	},
+
+	/* methods */ {
+		render: function(){
+			var layer, html;
+			layer = Ucren.createLayer();
+			layer = Ucren.Element(layer);
+			layer.setClass("ucrenlite-dottedborder-outer");
+			this.widthId = Ucren.id();
+			this.heightId = Ucren.id();
+			html = Ucren.DottedBorder.template.apply({
+				widthId: this.widthId,
+				heightId: this.heightId,
+				width: this.width - 8,
+				height: this.height - 8
+			});
+			layer.html(html);
+			layer.left(this.left).top(this.top);
+			this.layer = layer;
+		},
+
+		resizeTo: function(w, h){
+			var wel, hel;
+			this.width = w;
+			this.height = h;
+			wel = Ucren.Element(this.widthId);
+			hel = Ucren.Element(this.heightId);
+			wel.width(w - 8);
+			hel.height(h - 8);
+		},
+
+		moveTo: function(l, t){
+			this.left = l;
+			this.top = t;
+			this.layer.left(l).top(t);
+		},
+
+		display: function(bool){
+			this.visible = bool;
+			this.layer.display(bool);
+		}
+	}
+);
+
+Ucren.DottedBorder.template = new Ucren.Template(
+	"<table cellspacing='0' cellpadding='0' class='ucrenlite-dottedborder-table'>",
+		"<tr>",
+			"<td class='border' width='4' height='4'></td>",
+			"<td class='border' width='@{width}' id='@{widthId}'></td>",
+			"<td class='border' width='4'></td>",
+		"</tr>",
+		"<tr>",
+			"<td class='border' height='@{height}' id='@{heightId}'></td>",
+			"<td></td>",
+			"<td class='border'></td>",
+		"</tr>",
+		"<tr>",
+			"<td class='border' height='4'></td>",
+			"<td class='border'></td>",
+			"<td class='border'></td>",
+		"</tr>",
+	"</table>");
+
+// Ucren.BasicSlippage
+Ucren.BasicSlippage = Ucren.Class(
+	/* constructor */ function(conf){
+		conf = Ucren.fixConfig(conf);
+		this.container = Ucren.Element(conf.container);
+		this.width = Ucren.fixNumber(conf.width, 16);
+		this.height = Ucren.fixNumber(conf.height, 16);
+		this.image = conf.image;
+		this.length = Ucren.fixNumber(conf.length, 1);
+		this.direction = Ucren.fixString(conf.direction, "vertical");
+		this.position =
+		this.defaultPosition = Ucren.fixNumber(conf.defaultPosition, 0);
+		this.reviseOffset = Ucren.fixNumber(conf.reviseOffset, 0);
+
+		this.loadingBackgroundColor = Ucren.fixString(conf.loadingBackgroundColor, "");
+		this.loadingColor = Ucren.fixString(conf.loadingColor, "");
+		this.loadingText = Ucren.fixString(conf.loadingText, "");
+
+		this.enableAnimation = !! conf.enableAnimation;
+		this.animationInterval = Ucren.fixNumber(conf.animationInterval, 100);
+
+		this.isVertical = this.direction == "vertical";
+		this.isHorizontal = this.direction == "horizontal";
+	},
+
+	/* methods */ {
+		render: function(){
+			var html, innerWidth, innerHeight;
+			this.layerId = Ucren.id();
+			this.innerId = Ucren.id();
+			if(this.isVertical){
+				innerWidth = this.width;
+				innerHeight = this.height * this.length;
+			}else if(this.isHorizontal){
+				innerWidth = this.width * this.length;
+				innerHeight = this.height;
+			}
+			html = Ucren.BasicSlippage.template.apply({
+				layerId: this.layerId,
+				innerId: this.innerId,
+				width: this.width,
+				height: this.height,
+				innerWidth: innerWidth,
+				innerHeight: innerHeight,
+				loadingText: this.loadingText
+			});
+			this.container.html(html);
+			this.layer = Ucren.Element(this.layerId);
+			this.inner = Ucren.Element(this.innerId);
+			this.change(this.defaultPosition);
+			this.offset();
+
+			var innerStyle = this.inner.dom.style;
+				innerStyle.backgroundColor = this.loadingBackgroundColor;
+				innerStyle.color = this.loadingColor;
+				innerStyle.lineHeight = this.height + "px";
+
+			this.inner.html(this.loadingText);
+
+			Ucren.loadImage([this.image], function(){
+				this.inner.dom.style.backgroundColor = "";
+				this.inner.html("");
+				this.inner.usePNGbackground(this.image);
+			}.bind(this));
+
+			if(this.enableAnimation){
+				this.disposeAnimation();
+			}
+		},
+
+		change: function(number){
+			var style;
+			style = this.inner.dom.style;
+			number = Ucren.fixNumber(number, 0);
+			this.position = number;
+			if(this.isVertical){
+				style.marginTop = - this.height * number + "px";
+			}else if(this.isHorizontal){
+				style.marginLeft = - this.width * number + "px";
+			}
+		},
+
+		animationTo: function(number){
+			var timer;
+			number = Ucren.fixNumber(number, 0);
+			timer = this.timer;
+			timer.stop();
+			this.targetPosition = number;
+			timer.start();
+		},
+
+		//private
+		offset: function(){
+			if(!this.reviseOffset){
+				return false;
+			}
+			if(this.isVertical){
+				this.inner.width(this.width * (this.reviseOffset + 1));
+			}else if(this.isHorizontal){
+				this.inner.height(this.height * (this.reviseOffset + 1));
+			}
+			this.reverseDirection();
+			this.change(this.reviseOffset);
+			this.reverseDirection();
+		},
+
+		//private
+		reverseDirection: function(){
+			this.isVertical = !this.isVertical;
+			this.isHorizontal = !this.isHorizontal;
+		},
+
+		//private
+		disposeAnimation: function(){
+			var timer =
+			this.timer = new Ucren.Timer({
+				interval: this.animationInterval
+			});
+			this.targetPosition = 0;
+			timer.on("doing", function(){
+				var position;
+				if(this.position < this.targetPosition){
+					position = this.position + 1;
+				}else if(this.position > this.targetPosition){
+					position = this.position - 1;
+				}else{
+					return timer.stop();
+				}
+				this.change(position);
+			}.bind(this));
+		}
+	}
+);
+
+Ucren.BasicSlippage.template = new Ucren.Template(
+	"<div id='@{layerId}' class='ucrenlite-basicslippage-layer' ",
+	"style='width: @{width}px; height: @{height}px;'>",
+		"<a id='@{innerId}' class='ucrenlite-basicslippage-inner' href='ucren:' onclick='return false;' hidefocus='hidefocus' onfocus='this.blur();' ",
+		"style='width: @{innerWidth}px; height: @{innerHeight}px;'>",
+			"@{loadingText}",
+		"</a>",
+	"</div>");
+
+// Ucren.BasicMenuLayer
+Ucren.BasicMenuLayer = Ucren.Class(
+	/* constructor */ function(conf){
+		conf = Ucren.fixConfig(conf);
+		this.target = Ucren.Element(conf.target);
+		this.direction = Ucren.fixString(conf.direction, "down");
+		this.autoAdjustPosition = !! conf.autoAdjustPosition;
+		this.width = Ucren.fixNumber(conf.width, 100);
+		this.height = Ucren.fixNumber(conf.height, 100);
+		this.style = Ucren.fixString(conf.style, "thickboard");
+		this.innerElement = Ucren.Element(conf.innerElement);
+	},
+
+	/* methods */ {
+		render: function(){
+			var container = Ucren.createLayer();
+			container.className = "ucrenlite-basicmenulayer-container";
+
+			var layer = new Ucren.BasicLayer({
+				container: container,
+				type: this.style,
+				width: this.width,
+				height: this.height,
+				innerElement: this.innerElement
+			});
+			layer.render();
+
+			this.container = Ucren.Element(container);
+			this.layer = layer;
+
+			this.adjustPosition();
+		},
+
+		show: function(){
+			this.visible = true;
+			this.container.display(true);
+		},
+
+		hide: function(){
+			this.visible = false;
+			this.container.display(false);
+		},
+
+		isVisible: function(){
+			return !!this.visible;
+		},
+
+		//private
+		adjustPosition: function(){
+			var target, container, pos, size, body;
+			target = this.target;
+			container = this.container;
+			pos = target.getPos();
+			size = target.getSize();
+			body = document.body;
+
+			switch(this.direction){
+				case "right":
+					pos.x += size.width;
+					break;
+				case "down":
+					pos.y += size.height;
+					break;
+			}
+
+			if(this.autoAdjustPosition){
+				if(this.width + pos.x > body.clientWidth){
+					if(this.direction == "down"){
+						pos.x = body.clientWidth - this.width;
+					}else{
+						pos.x -= this.width + size.width;
+					}
+				}
+				if(this.height + pos.y > body.clientHeight){
+					pos.y -= this.height + size.height;
+				}
+			};
+
+			container.left(pos.x).top(pos.y);
+		}
+	}
+);
+
+//
+// [表单控件]
+//
+
+// Ucren.Button
+Ucren.Button = Ucren.Class(
+	/* constructor */ function(conf){
+		conf = Ucren.fixConfig(conf);
+		this.container = Ucren.Element(conf.container);
+		this.width = Ucren.fixNumber(conf.width, 50);
+		this.caption = Ucren.fixString(conf.caption, "no name");
+		this.disabled = !! conf.disabled;
+	},
+
+	/* methods */ {
+		render: function(){
+			var layer;
+			this.buildBasicHtml();
+			layer = this.layer = new Ucren.ComplexLayer({
+				container: this.focusBorder,
+				type: "thickboard",
+				width: this.width,
+				height: 22,
+				events: this.buildEvent(),
+				eventScope: this.eventScope
+			});
+			layer.render();
+			this.setCaption(this.caption);
+			if(this.disabled){
+				this.setDisabled(this.disabled);
+			}
+		},
+
+		setCaption: function(string){
+			this.caption = Ucren.fixString(string, "");
+			this.eventScope.html(this.caption);
+		},
+
+		setDisabled: function(bool){
+			bool = !! bool;
+			this.disabled = bool;
+			this.layer.disabledEvents(bool);
+			if(bool){
+				this.eventScope.addClass("ucrenlite-button-eventscope_disabled");
+			}else{
+				this.eventScope.delClass("ucrenlite-button-eventscope_disabled");
+			}
+		},
+
+		//private
+		buildBasicHtml: function(){
+			var template, html;
+			template = Ucren.Button.template;
+			this.focusBorderId = Ucren.id();
+			this.eventScopeId = Ucren.id();
+			html = template.apply({
+				focusBorderId: this.focusBorderId,
+				eventScopeId: this.eventScopeId
+			});
+			this.container.html(html);
+			this.focusBorder = Ucren.Element(this.focusBorderId);
+			this.eventScope = Ucren.Element(this.eventScopeId);
+			this.focusBorder.width(this.width);
+		},
+
+		//private
+		buildEvent: function(){
+			var rtn;
+			rtn = {
+				click: function(e){
+					this.fireEvent("click");
+				}.bind(this),
+
+				mousedown: function(e){
+					this.layer.changeType("buttondown");
+					this.documentMouseup = Ucren.addEvent(document, "mouseup", function(){
+						this.layer.changeType();
+						Ucren.delEvent(document, "mouseup", this.documentMouseup);
+					}.bind(this));
+				},
+
+				mouseout: function(e){
+					this.layer.changeType();
+				},
+
+				keydown: function(e){
+					e = e || event;
+					if(e.keyCode == 32){
+						this.layer.changeType("buttondown");
+					}
+				},
+
+				keyup: function(e){
+					e = e || event;
+					if(e.keyCode == 32){
+						this.layer.changeType();
+					}
+				},
+
+				focus: function(){
+					var focusBorder, eventScope;
+					this.layer.layer.resizeTo(this.width - 2, 20);
+					focusBorder = this.focusBorder;
+					eventScope = this.eventScope;
+					focusBorder.width(this.width - 2).height(20).border("1px solid").
+						addClass("ucrenlite-button-focusborder_focus");
+					eventScope.width(this.width - 6).height(16).lineHeight(16);
+					this.fireEvent("focus");
+				}.bind(this),
+
+				blur: function(){
+					var focusBorder, eventScope;
+					this.layer.layer.resizeTo(this.width, 22);
+					focusBorder = this.focusBorder;
+					eventScope = this.eventScope;
+					focusBorder.width(this.width).height(22).border("0").
+						delClass("ucrenlite-button-focusborder_focus");
+					eventScope.width(this.width - 4).height(18).lineHeight(18);
+					this.fireEvent("blur");
+				}.bind(this)
+			};
+			return rtn;
+		}
+	}
+);
+
+Ucren.Button.template = new Ucren.Template(
+	"<div id='@{focusBorderId}' class='ucrenlite-button-focusborder'>",
+		"<a href='' id='@{eventScopeId}' onclick='return false;' ondragstart='return false' class='ucrenlite-button-eventscope'>",
+			"@{name}",
+		"</a>",
+	"</div>");
+
+// Ucren.MiniButton
+Ucren.MiniButton = Ucren.Class(
+	/* constructor */ function(conf){
+		conf = Ucren.fixConfig(conf);
+		this.container = Ucren.Element(conf.container);
+		this.type = Ucren.fixString(conf.type, "normal");
+		this.icon = Ucren.fixString(conf.icon, "");
+		this.width = Ucren.fixNumber(conf.width, 20);
+		this.height = Ucren.fixNumber(conf.height, 20);
+		this.value = !! conf.value;
+		this.handler = conf.handler || Ucren.nul;
+		this.disabled = conf.disabled;
+	},
+
+	/* methods */ {
+		render: function(){
+			var html, type;
+
+			type = this.type;
+			html = Ucren.MiniButton.Template.apply({
+				innerId: this.innerId = Ucren.id(),
+				innerWidth: this.width - 4,
+				innerHeight: this.height - 4
+			});
+			this.container.html(html);
+			this.inner = Ucren.Element(this.innerId);
+			this.inner.dom.style.backgroundImage = "url(" + this.icon + ")";
+
+			if(type == "normal"){
+				this.renderCommon();
+			}else if(type == "flat"){
+				this.renderCommon("flat");
+			}else if(type == "autoFlat"){
+				this.renderAutoFlat();
+			}else if(type == "autoFlatRecord"){
+				this.renderAutoFlatRecord();
+			}
+		},
+
+		//private
+		renderCommon: function(renderType){
+			var layer, type, typedown;
+
+			if(renderType == "flat"){
+				type = "thinboard";
+				typedown = "thinpond";
+				this.inner.addClass("ucrenlite-minibutton-inner_thin");
+			}else{
+				type = "thickboard";
+				typedown = "thickpond";
+			}
+
+			layer = new Ucren.ComplexLayer({
+				container: this.container,
+				type: type,
+				width: this.width,
+				height: this.height,
+				disabled: this.disabled,
+				events: {
+					mousedown: function(e){
+						this.layer.changeType(typedown);
+						e = e || event;
+						e.cancelBubble = true;
+						return false;
+					},
+
+					mouseup: function(){
+						this.layer.changeType();
+					},
+
+					mouseout: function(){
+						this.layer.changeType();
+					},
+
+					click: function(){
+						this.handler();
+					}.bind(this)
+				},
+				eventScope: this.inner
+			});
+			layer.render();
+
+			this.layer = layer;
+		},
+
+		//private
+		renderAutoFlat: function(){
+			var layer, type, typeover, typedown;
+
+			type = "normal";
+			typeover = "thinboard"
+			typedown = "thinpond";
+			this.inner.addClass("ucrenlite-minibutton-inner_thin");
+
+			layer = new Ucren.ComplexLayer({
+				container: this.container,
+				type: type,
+				width: this.width,
+				height: this.height,
+				disabled: this.disabled,
+				events: {
+					mouseover: function(){
+						this.layer.changeType(typeover);
+					},
+
+					mousedown: function(e){
+						this.layer.changeType(typedown);
+						e = e || event;
+						e.cancelBubble = true;
+						return false;
+					},
+
+					mouseup: function(){
+						this.layer.changeType(typeover);
+					},
+
+					mouseout: function(){
+						this.layer.changeType();
+					},
+
+					click: function(){
+						this.handler();
+					}.bind(this)
+				},
+				eventScope: this.inner
+			});
+			layer.render();
+
+			this.layer = layer;
+		},
+
+		//privates
+		renderAutoFlatRecord: function(){
+			var layer, type, typeover, typedown, value;
+
+			value = this.value;
+
+			type = value ? "thinpond" : "normal";
+			typeover = "thinboard"
+			typedown = "thinpond";
+			this.inner.addClass("ucrenlite-minibutton-inner_thin");
+
+
+			layer = new Ucren.ComplexLayer({
+				container: this.container,
+				type: type,
+				width: this.width,
+				height: this.height,
+				disabled: this.disabled,
+				events: {
+					mouseover: function(){
+						if(!value){
+							this.layer.changeType(typeover);
+						}
+					},
+
+					mousedown: function(e){
+						if(value){
+							this.layer.changeType(typeover);
+							value = false;
+						}else{
+							this.layer.changeType(typedown);
+							value = true;
+						}
+						e = e || event;
+						e.cancelBubble = true;
+						return false;
+					},
+
+					mouseup: function(){
+						if(!value){
+							this.layer.changeType(typeover);
+						}
+					},
+
+					mouseout: function(){
+						if(!value){
+							this.layer.changeType("normal");
+						}
+					},
+
+					click: function(){
+						this.handler();
+					}.bind(this)
+				},
+				eventScope: this.inner
+			});
+			layer.render();
+
+			this.layer = layer;
+		}
+	}
+);
+Ucren.MiniButton.Template = new Ucren.Template(
+	"<div class='ucrenlite-minibutton-inner' id='@{innerId}' ",
+	"style='width: @{innerWidth}px; height: @{innerHeight}px;'>&nbsp;</div>");
+
+// Ucren.TextField
+Ucren.TextField = Ucren.Class(
+	/* constructor */ function(conf){
+		conf = Ucren.fixConfig(conf);
+		this.container = Ucren.Element(conf.container);
+		this.width = Ucren.fixNumber(conf.width, 50);
+		this.height = Ucren.fixNumber(conf.height, 94); //only for type 'textarea'
+		this.value = Ucren.fixString(conf.value, "");
+		this.type = Ucren.fixString(conf.type, "text");
+		this.disabled = !! conf.disabled;
+	},
+
+	/* methods */ {
+		render: function(){
+			var layer;
+			this.buildBasicHtml();
+			layer = this.layer = new Ucren.ComplexLayer({
+				container: this.container,
+				width: this.width,
+				height: this.type == "textarea" ? this.height : 22,
+				type: "thickpond",
+				events: this.buildEvent(),
+				eventScope: this.eventScope
+			});
+			layer.render();
+			if(this.disabled){
+				this.setDisabled(this.disabled);
+			}
+		},
+
+		setDisabled: function(bool){
+			var eventScope = this.eventScope;
+			bool = !! bool;
+			this.disabled = bool;
+			eventScope.dom.disabled = bool;
+			if(bool){
+				eventScope.addClass("ucrenlite-textfield-eventscope_disabled");
+			}else{
+				eventScope.delClass("ucrenlite-textfield-eventscope_disabled");
+			}
+		},
+
+		focus: function(){
+			try{
+				this.eventScope.dom.focus();
+			}catch(e){
+			}
+		},
+
+		setValue: function(value){
+			value = Ucren.fixString(value, "");
+			this.eventScope.dom.value = value;
+		},
+
+		getValue: function(){
+			return this.eventScope.dom.value;
+		},
+
+		//private
+		buildBasicHtml: function(){
+			var html, template;
+			this.eventScopeId = Ucren.id();
+
+			if(this.type == "textarea"){
+				template = Ucren.TextField.templateForTextarea;
+			}else{
+				template = Ucren.TextField.templateForText;
+			}
+
+			html = template.apply({
+				eventScopeId: this.eventScopeId,
+				value: this.value,
+				type: this.type
+			});
+
+			this.container.html(html);
+			this.eventScope = Ucren.Element(this.eventScopeId);
+
+			if(this.type == "textarea"){
+				this.eventScope.width(this.width - (Ucren.isFirefox ? 5 : 6));
+				this.eventScope.height(this.height - (Ucren.isFirefox ? 4 : 6));
+			}else{
+				this.eventScope.width(this.width - 4);
+			}
+		},
+
+		//private
+		buildEvent: function(){
+			var rtn;
+			rtn = {
+				focus: function(){
+					this.eventScope.dom.select();
+				}.bind(this)
+			};
+			return rtn;
+		}
+	}
+);
+
+Ucren.TextField.templateForText = new Ucren.Template(
+	"<input type='@{type}' id='@{eventScopeId}' value='@{value}' class='ucrenlite-textfield-eventscope' />");
+
+Ucren.TextField.templateForTextarea = new Ucren.Template(
+	"<textarea id='@{eventScopeId}' class='ucrenlite-textfield-eventscope ucrenlite-textfield-eventscope_textarea'>@{value}</textarea>");
+
+// Ucren.Chooser
+Ucren.Chooser = Ucren.Class(
+	/* constructor */ function(conf){
+		conf = Ucren.fixConfig(conf);
+		this.type = Ucren.fixString(conf.type, "checkbox");
+		this.caption = Ucren.fixString(conf.caption, "");
+		this.container = Ucren.Element(conf.container);
+		this.checked = !! conf.checked;
+		this.disabled = !! conf.disabled;
+	},
+
+	/* methods */ {
+		render: function(){
+			var position, offset, slippage;
+
+			position = this.getSlippagePosition();
+			if(this.type == "checkbox"){
+				offset = 0;
+			}else if(this.type == "radio"){
+				offset = 1;
+			}
+
+			slippage = this.slippage = new Ucren.BasicSlippage({
+				container: this.container,
+				width: 13,
+				height: 13,
+				image: Ucren.currentSkinPath + "chooseor.gif",
+				length: 4,
+				direction: "vertical",
+				defaultPosition: position,
+				reviseOffset: offset
+			});
+			slippage.render();
+
+			this.eventScope = slippage.layer;
+			this.renderName();
+			this.registerEvents();
+		},
+
+		setValue: function(bool){
+			return this.setChecked(bool);
+		},
+
+		getValue: function(){
+			return this.checked;
+		},
+
+		setChecked: function(bool){
+			var slippage;
+			slippage = this.slippage;
+			this.checked = !!bool;
+			slippage.change(this.getSlippagePosition());
+		},
+
+		setDisabled: function(bool){
+			var slippage;
+			slippage = this.slippage;
+			this.disabled = !!bool;
+			slippage.change(this.getSlippagePosition());
+		},
+
+		setCaption: function(name){
+			name = Ucren.fixString(name, "");
+			this.caption.html(name);
+		},
+
+		//private
+		renderName: function(){
+			var a, aid;
+			this.eventScope.floatLeft();
+			this.eventScope.dom.style.marginRight = "5px";
+			a = document.createElement("a");
+			aid = Ucren.id();
+			a.setAttribute("href", "");
+			a.setAttribute("id", aid);
+			a.className = "ucrenlite-chooser-name";
+			a.onclick = Ucren.nul;
+			a.innerHTML = this.caption;
+			this.container.add(a);
+			this.caption = Ucren.Element(aid);
+		},
+
+		//private
+		getSlippagePosition: function(){
+			var checked, disabled;
+			checked = this.checked;
+			disabled = this.disabled;
+			switch(true){
+				case !checked && !disabled:
+					return 0;
+				case checked && !disabled:
+					return 1;
+				case !checked && disabled:
+					return 2;
+				case checked && disabled:
+					return 3;
+			}
+		},
+
+		//private
+		registerEvents: function(){
+			var events;
+			events = {
+				click: function(){
+					if(this.disabled){
+						return false;
+					}
+					if(this.type == "radio" && this.checked){
+						return ;
+					}
+					this.setChecked(!this.checked);
+				}.bind(this)
+			};
+			this.eventScope.addEvents(events);
+			this.caption.addEvents(events);
+		}
+	}
+);
+
+// Ucren.ChooserGroup
+Ucren.ChooserGroup = Ucren.Class(
+	/* constructor */ function(conf){
+		conf = Ucren.fixConfig(conf);
+		this.type = Ucren.fixString(conf.type, "checkbox");
+		this.metaData = conf.metaData; // [{ caption, container, checked, disabled, value },{..},{..}]
+	},
+
+	/* methods */ {
+		render: function(){
+			var items, item, metaData;
+			items = this.items = [];
+			metaData = this.metaData;
+
+			Ucren.each(metaData, function(value, key){
+				var r = Ucren.apply(value);
+				r.type = this.type;
+				item = items[key] = new Ucren.Chooser(r);
+				item.render();
+				item.on("setChecked", function(thiz, index){
+					return function(bool){
+						thiz.onSetItemChecked(index, bool);
+					};
+				}(this, key));
+			}.bind(this));
+		},
+
+		getValue: function(){
+			var items, metaData, rtn;
+			items = this.items;
+			metaData = this.metaData;
+			rtn = [];
+			Ucren.each(items, function(item, key){
+				var value;
+				if(item.checked){
+					value = metaData[key].value;
+					if(this.type == "radio"){
+						rtn = value;
+						return false;
+					}else{
+						rtn.push(value);
+					}
+				}
+			}.bind(this));
+			return rtn;
+		},
+
+		setValue: function(){
+			//todo
+		},
+
+		//private
+		onSetItemChecked: function(index, bool){
+			if(this.type == "radio" && bool){
+				var items = this.items;
+				Ucren.each(items, function(item, key){
+					if(key != index && item.checked){
+						item.setChecked(false);
+					}
+				});
+			}
+		}
+	}
+);
+
+// Ucren.ComboBox
+Ucren.ComboBox = Ucren.Class(
+	/* constructor */ function(conf){
+		conf = Ucren.fixConfig(conf);
+		this.container = Ucren.Element(conf.container);
+		this.width = Ucren.fixNumber(conf.width, 50);
+		this.data = conf.data;
+	},
+
+	/* methods */ {
+		render: function(){
+			var textfield, button, list;
+			textfield = this.createTextField();
+			button = this.createButton(textfield);
+			list = this.createList(textfield);
+			this.defineEvent(textfield, button, list);
+		},
+
+		//private
+		createTextField: function(){
+			var textfield = new Ucren.TextField({
+				container: this.container,
+				width: this.width,
+				value: ""
+			});
+			textfield.on("buildBasicHtml", function(){
+				this.eventScope.width(this.width - 22);
+			}.bind(textfield));
+			textfield.render();
+			return textfield;
+		},
+
+		//private
+		createButton: function(textfield){
+			var parent, input, buttonContainer, clear, button;
+
+			input = textfield.eventScope;
+			input.addClass("ucrenlite-combobox-input");
+
+			parent = input.dom.parentNode;
+			buttonContainer = Ucren.createLayer();
+			buttonContainer.className = "ucrenlite-combobox-button";
+			parent.appendChild(buttonContainer);
+
+			clear = Ucren.createLayer();
+			clear.className = "ucrenlite-clear";
+			parent.appendChild(clear);
+
+			button = new Ucren.MiniButton({
+				container: buttonContainer,
+				type: "normal",
+				icon: Ucren.currentSkinPath + "combobox-dropdown.gif",
+				width: 16,
+				height: 18
+			});
+			button.render();
+			return button;
+		},
+
+		//private
+		createList: function(textfield){
+			var topContainer, textfieldContainer, listContainer;
+			textfieldContainer = textfield.container;
+			topContainer = textfieldContainer.dom.parentNode;
+			listContainer = Ucren.createLayer();
+			listContainer.className = "ucrenlite-combobox-list";
+			listContainer.style.width = textfield.width - 2 + "px";
+			topContainer.insertBefore(listContainer, textfieldContainer.dom);
+			topContainer.insertBefore(textfieldContainer.dom, listContainer);
+			var listbox = new Ucren.ListBox({
+				container: listContainer,
+				data: this.data,
+				defaultValue: Ucren.fixString(this.defaultValue, "")
+			});
+			listbox.render();
+			listContainer.style.display = "none";
+			return listbox;
+		},
+
+		//private
+		defineEvent: function(textfield, button, list){
+			Ucren.addEvent(textfield.eventScope, "keydown", function(e){
+				e = Ucren.Event(e);
+				if(e.keyCode == 38 || e.keyCode == 40){
+					list.show();
+				}
+			});
+			button.handler = function(){
+				list.show();
+			}
+			list.show = function(){
+				this.container.display(true);
+				if(typeof(this.selectedIndex) == "number"){
+					list.selectIndex(this.selectedIndex);
+				}
+			}
+			list.hide = function(){
+				this.container.display(false);
+			}
+
+			var fn = function(obj, index, event){
+				var data;
+				if(event.keyCode == 13 || event.type == "click"){
+					data = this.data;
+					data.go(index);
+					this.value = data.read("value");
+					textfield.setValue(data.read("text"));
+					list.hide();
+					textfield.focus();
+				}
+			};
+			list.on("onKeyDownItem", fn);
+			list.on("onClickItem", fn);
+		}
+	}
+);
+
+//
+// [容器控件]
+//
+
+// Ucren.FieldSet
+Ucren.FieldSet = Ucren.Class(
+	/* constructor */ function(conf){
+		conf = Ucren.fixConfig(conf);
+		this.container = Ucren.Element(conf.container);
+		this.caption = Ucren.fixString(conf.caption, "");
+		this.width = Ucren.fixNumber(conf.width, 350);
+		this.height = Ucren.fixNumber(conf.height, 250);
+	},
+
+	/* methods */ {
+		render: function(){
+			var layer;
+			layer = this.layer = new Ucren.BasicLayer({
+				container: this.container,
+				type: "field",
+				width: this.width,
+				height: this.height
+			});
+			layer.render();
+			this.disposeCaption();
+		},
+
+		//private
+		disposeCaption: function(){
+			var layer = Ucren.createLayer();
+			this.layer.inside.insert(layer);
+			layer.className = "ucrenlite-fieldset-captioncont";
+			layer.innerHTML = "<div class='ucrenlite-fieldset-caption'>" +
+				this.caption + "</div>";
+		}
+	}
+);
+
+// Ucren.Window
+Ucren.Window = Ucren.Class(
+	/* constructor */ function(conf){
+		conf = Ucren.fixConfig(conf);
+		this.width = Ucren.fixNumber(conf.width, 100);
+		this.height = Ucren.fixNumber(conf.height, 100);
+		this.left = Ucren.fixNumber(conf.left, 0);
+		this.top = Ucren.fixNumber(conf.top, 0);
+		this.panel = Ucren.Element(conf.panel);
+		this.caption = Ucren.fixString(conf.caption, "no name");
+		this.icon = Ucren.fixString(conf.icon, Ucren.appPath + "resource/icon.gif");
+		this.closeBtn = !! conf.closeBtn;
+	},
+
+	/* methods */ {
+		show: function(){
+			if(!this.inited){
+				this.init();
+			}
+			this.container.display(true);
+		},
+
+		hide: function(){
+			this.container.display(false);
+		},
+
+		//private
+		init: function(){
+			var container;
+			container = Ucren.createLayer();
+			this.container = container = Ucren.Element(container);
+			container.absolute();
+			container.left(this.left).top(this.top);
+
+			this.disposeLayer();
+			this.head = Ucren.Element(this.headId);
+			this.body = Ucren.Element(this.bodyId);
+			this.button = Ucren.Element(this.buttonId);
+			this.body.width(this.width - 4).height(this.height - 22);
+
+			this.disposeButton();
+			this.disposeDragDrop();
+			this.disposePanel();
+			this.inited = true;
+		},
+
+		//private
+		disposeLayer: function(){
+			var html, layer;
+			html = Ucren.Window.template.apply({
+				appPath: Ucren.appPath,
+				icon: this.icon,
+				caption: this.caption,
+				headId: this.headId = Ucren.id(),
+				bodyId: this.bodyId = Ucren.id(),
+				buttonId: this.buttonId = Ucren.id()
+			});
+			this.container.html(html);
+
+			this.layer = layer = new Ucren.BasicLayer({
+				container: this.container,
+				type: "window",
+				width: this.width,
+				height: this.height
+			});
+			layer.render();
+		},
+
+		//private
+		disposeButton: function(){
+			var layer;
+			if(this.closeBtn){
+				layer = Ucren.createLayer();
+				layer.className = "ucrenlite-window-button-item";
+				this.button.add(layer);
+
+				var closeLayer = this.closeLayer = new Ucren.MiniButton({
+					container: layer,
+					type: "normal",
+					icon: Ucren.appPath + "resource/minibtn-close.gif",
+					width: 16,
+					height: 14,
+					handler: function(){
+						Ucren.MenuOperator.hideAll();
+						this.hide();
+					}.bind(this)
+				});
+				closeLayer.render();
+			}
+		},
+
+		//private
+		disposeDragDrop: function(){
+			var dragdrop, container;
+			container = this.container;
+
+			dragdrop = new Ucren.DragDrop();
+			dragdrop.bind(container, this.head);
+		},
+
+		//private
+		disposePanel: function(){
+			this.body.add(this.panel);
+		}
+	}
+);
+Ucren.Window.template = new Ucren.Template(
+	"<div class='ucrenlite-window'>",
+		"<div class='ucrenlite-window-head' id='@{headId}'>",
+			"<div class='ucrenlite-window-head-bg'>",
+				"<img src='@{appPath}resource/skins/default/window-title.gif' />",
+			"</div>",
+			"<div class='ucrenlite-window-head-ft'>",
+				"<div class='ucrenlite-window-head-ft-button' id='@{buttonId}'><!--buttons--></div>",
+				"<div class='ucrenlite-window-head-ft-icon ucrenlite-hor' style='background-image: url(@{icon});'></div>",
+				"<div class='ucrenlite-window-head-ft-name ucrenlite-hor'>@{caption}</div>",
+			"</div>",
+		"</div>",
+		"<div class='ucrenlite-window-body' id='@{bodyId}'>",
+		"</div>",
+	"</div>");
+
+// Ucren.Toolbar
+Ucren.Toolbar = Ucren.Class(
+	/* constructor */ function(conf){
+		conf = Ucren.fixConfig(conf);
+		this.container = Ucren.Element(conf.container);
+		this.data = conf.data || [];
+	},
+
+	/* methods */ {
+		render: function(){
+			var data, layer;
+			this.container.addClass("ucrenlite-toolbar");
+			data = this.data;
+			Ucren.each(data, function(item, key){
+				layer = Ucren.createLayer();
+				layer.className = "ucrenlite-toolbar-item";
+				this.container.add(layer);
+
+				if(!item.type || item.type == "record"){
+					this.renderButton(layer, item);
+				}else{
+					this.renderSeparator(layer, item.type);
+				}
+			}.bind(this));
+			layer = Ucren.createLayer();
+			layer.className = "ucrenlite-clear";
+			this.container.add(layer);
+		},
+
+		//private
+		renderSeparator: function(container, separatorType){
+			if(separatorType == "separator"){
+				container.className += " ucrenlite-toolbar-separator";
+				container.style.backgroundImage = "url(" +
+					Ucren.currentSkinPath + "toolbar-separator.gif)";
+			}else if(separatorType == "groupStart"){
+				container.className += " ucrenlite-toolbar-group-start";
+				container.style.backgroundImage = "url(" +
+					Ucren.currentSkinPath + "toolbar-group-start.gif)";
+			}else if(separatorType == "groupEnd"){
+				container.className += " ucrenlite-toolbar-group-end";
+				container.style.backgroundImage = "url(" +
+					Ucren.currentSkinPath + "toolbar-separator.gif)";
+			}
+		},
+
+		//private
+		renderButton: function(container, conf){
+			var buttonType;
+
+			if(conf.type == "record"){
+				buttonType = "autoFlatRecord";
+			}else{
+				buttonType = "autoFlat";
+			}
+
+			button = new Ucren.MiniButton({
+				container: container,
+				type: buttonType,
+				icon: conf.icon,
+				width: 22,
+				height: 22,
+				disabled: conf.disabled,
+				value: conf.value
+			});
+			button.render();
+		}
+	}
+);
+
+//
+// [菜单控件]
+//
+
+// Ucren.ListBox
+Ucren.ListBox = Ucren.Class(
+	/* constructor */ function(conf){
+		conf = Ucren.fixConfig(conf);
+		this.container = Ucren.Element(conf.container);
+		this.data = conf.data;
+		this.defaultValue = conf.defaultValue;
+		this.handleId = Ucren.handle(this);
+	},
+
+	/* methods */ {
+		render: function(){
+			this.insideContainer = this.createInsideContainer();
+			this.reloadData(this.data);
+		},
+
+		selectIndex: function(index){
+			var obj = this.insideContainer.dom.childNodes[index];
+			if(obj){
+				this.selectObject(obj);
+			}
+		},
+
+		moveUp: function(obj, index){
+			if(obj.previousSibling){
+				this.selectObject(obj.previousSibling);
+			}
+		},
+
+		moveDown: function(obj, index){
+			if(obj.nextSibling){
+				this.selectObject(obj.nextSibling);
+			}
+		},
+
+		reloadData: function(data){
+			var container, html, htmlExample, index = 0, activeIndex;
+			container = this.insideContainer;
+			html = [];
+			htmlExample = "<a href='' class='item@{active}' onclick='Ucren.handle(@{handleId}).onClickItem(this, @{index}, event);return false;' onkeydown='Ucren.handle(@{handleId}).onKeyDownItem(this, @{index}, event);return false;' onmouseover='Ucren.handle(@{handleId}).onMouseOverItem(this, @{index}, event);return false;' index='@{index}'>@{text}</a>";
+			if(this.data != data){
+				this.data = data;
+			}
+			data.each(function(record){
+				html.push(htmlExample.format({
+					handleId: this.handleId,
+					index: index ++,
+					text: record.text,
+					active: this.defaultValue == record.value ?
+						(activeIndex = index - 1, " active") : ""
+				}));
+			}.bind(this));
+			html = html.join("");
+			container.html(html);
+			if(typeof(activeIndex) == "number"){
+				this.selectIndex(activeIndex);
+			}
+		},
+
+		//private
+		selectObject: function(obj){
+			var active;
+			if(this.activeItem){
+				this.activeItem.className = "item";
+			}
+			active = this.activeItem = obj;
+			active.className = "item active";
+			setTimeout(function(){
+				try{
+					active.focus();
+				}catch(e){
+				}
+			}, 1);
+			this.selectedIndex = +active.getAttribute("index");
+		},
+
+		//private
+		createInsideContainer: function(){
+			var container, newContainer;
+			container = this.container;
+			newContainer = Ucren.createLayer();
+			newContainer = Ucren.Element(newContainer);
+			newContainer.width(container.width() - 2);
+			newContainer.height(container.height() - 2);
+			newContainer.setClass("ucrenlite-listbox");
+			container.add(newContainer);
+			return newContainer;
+		},
+
+		//private
+		onKeyDownItem: function(obj, index, event){
+			switch(event.keyCode){
+				case 38:
+					this.moveUp(obj, index);
+					break;
+				case 40:
+					this.moveDown(obj, index);
+					break;
+			}
+		},
+
+		//private
+		onMouseOverItem: function(obj, index, event){
+			this.selectObject(obj);
+		},
+
+		//private
+		onClickItem: function(obj, index, event){
+
+		}
+	}
+);
+
+// Ucren.MenuBar
+Ucren.MenuBar = Ucren.Class(
+	/* constructor */ function(conf){
+		conf = Ucren.fixConfig(conf);
+		this.container = Ucren.Element(conf.container);
+		this.data = conf.data || [];
+		Ucren.MenuOperator.addInstance(this);
+	},
+
+	/* methods */ {
+		render: function(){
+			this.container.addClass("ucrenlite-menubar");
+			this.renderTopLevel();
+			this.registerEvents();
+		},
+
+		showMenu: function(item){
+			var menus = this.menus;
+			if(this.openState){
+				this.hideMenu();
+			}
+
+			if(item){
+				item.expand();
+				this.curMenu = item;
+			}
+
+			this.openState = true;
+		},
+
+		hideMenu: function(){
+			var menus = this.menus;
+			if(this.curMenu){
+				this.curMenu.collapse();
+				this.curMenu = null;
+			}else{
+				Ucren.each(menus, function(item, key){
+					if(item.expanded){
+						item.collapse();
+					}
+				});
+			}
+
+			this.openState = false;
+		},
+
+		//private
+		renderTopLevel: function(){
+			var data, menus, layer;
+			data = this.data;
+			menus = this.menus = [];
+			Ucren.each(data, function(item, key){
+				layer = Ucren.createLayer();
+				layer.className = "ucrenlite-menubar-menu";
+				layer.style.width = item.text.byteLength() * 6 + 14 + "px";
+				this.container.add(layer);
+				menus[key] = new Ucren.MenuItem({
+					container: layer,
+					text: item.text,
+					type: "menubar",
+					subMenuData: item.subMenuData,
+					disabled: item.disabled,
+					handler: item.handler
+				});
+				menus[key].parentMenuBar = this;
+				menus[key].render();
+			}.bind(this));
+
+			layer = Ucren.createLayer();
+			this.container.add(layer);
+		},
+
+		//private
+		registerEvents: function(){
+			Ucren.addEvent(document, "mousedown", function(){
+				this.hideMenu();
+			}.bind(this));
+		}
+	}
+);
+
+// Ucren.MenuItem
+Ucren.MenuItem = Ucren.Class(
+	/* constructor */ function(conf){
+		conf = Ucren.fixConfig(conf);
+		this.container = Ucren.Element(conf.container);
+		this.text = Ucren.fixString(conf.text, "");
+		this.type = Ucren.fixString(conf.type, "normal");
+		this.subMenuData = conf.subMenuData || [];
+		this.handler = conf.handler;
+		this.disabled = !! conf.disabled;
+	},
+
+	/* methods */ {
+		render: function(){
+			var type;
+			type = this.type;
+
+			if(type == "normal"){
+				this.renderNormal();
+			}else if(type == "separator"){
+				this.renderSeparator();
+			}else if(type == "menubar"){
+				this.renderMenuBar();
+			}
+
+			//this.disposeSubMenu();
+			this.registerEvents();
+		},
+
+		expand: function(){
+			if(!this.disposedSubMenu){
+				this.disposeSubMenu();
+			}
+			if(this.subLayer){
+				this.subLayer.show();
+				this.subLayer.adjustPosition();
+				this.expanded = true;
+			}
+			this.hideBrothers();
+		},
+
+		collapse: function(){
+			if(this.subLayer){
+				this.subLayer.hide();
+				this.hideSubs();
+				this.expanded = false;
+			}
+			if(this.textLayer){
+				this.textLayer.layer.changeType("normal");
+			}
+
+			var curItem = this.currentSelectedItem;
+			if(curItem){
+				curItem.container.delClass("ucrenlite-selection");
+			}
+		},
+
+		//private
+		renderMenuBar: function(){
+			var container, id, thiz;
+			container = this.container;
+			this.subMenuDirection = "down";
+			thiz = this;
+
+			id = Ucren.id();
+			container.html("<div id='" + id +
+				"' class='ucrenlite-menuitem-formenubar'>" + this.text +
+				"</div>");
+
+			var clayer = new Ucren.ComplexLayer({
+				container: container,
+				type: "normal",
+				width: container.width(),
+				height: 19,
+				events: {
+					mouseover: function(){
+						var menubar = thiz.parentMenuBar;
+						if(menubar.openState){
+							if(thiz.parentMenuBar.curMenu == thiz){
+								return ;
+							}
+							this.layer.changeType("thinpond");
+							menubar.showMenu(thiz);
+						}else{
+							this.layer.changeType("thinboard");
+						}
+					},
+
+					mouseout: function(){
+						var menubar = thiz.parentMenuBar;
+						if(menubar.openState){
+							//do something
+						}else{
+							this.layer.changeType("normal");
+						}
+					},
+
+					mousedown: function(e){
+						e = Ucren.Event(e);
+						e.cancelBubble = true;
+						return false;
+					},
+
+					mouseup: function(){
+						var menubar = thiz.parentMenuBar;
+						if(menubar.openState){
+							menubar.hideMenu();
+							this.layer.changeType("thinboard");
+						}else{
+							menubar.showMenu(thiz);
+							this.layer.changeType("thinpond");
+						}
+					}
+				},
+				eventScope: id
+			});
+			clayer.render();
+			this.textLayer = clayer;
+		},
+
+		//private
+		renderNormal: function(){
+			var container, html;
+			container = this.container;
+			this.subMenuDirection = "right";
+
+			container.addClass("ucrenlite-menuitem");
+			html = Ucren.MenuItem.Template.apply({
+				arrowId: this.arrowId = Ucren.id(),
+				iconId: this.iconId = Ucren.id(),
+				text: this.text,
+				textId: this.textId = Ucren.id(),
+				disabledHtml: this.disabled ?
+					" ucrenlite-menuitem-text_disabled' disabled='disabled" : ""
+			});
+			container.html(html);
+			this.disposeSubArrow();
+		},
+
+		//private
+		renderSeparator: function(){
+			var container;
+			container = this.container;
+			container.addClass("ucrenlite-menuitem-separator");
+		},
+
+		//private
+		hideBrothers: function(){
+			if(!this.parent){
+				return ;
+			}
+			var subs = this.parent.subs;
+			Ucren.each(subs, function(item, key){
+				if(item == this){
+					return ;
+				}
+				item.collapse();
+			}.bind(this));
+		},
+
+		//private
+		hideSubs: function(){
+			if(!this.subs.length){
+				return ;
+			}
+			var subs = this.subs;
+			Ucren.each(subs, function(item){
+				item.collapse();
+			});
+		},
+
+		//private
+		disposeSubArrow: function(){
+			var el;
+			if(this.subMenuDirection == "right" && this.subMenuData.length){
+				el = Ucren.Element(this.arrowId);
+				el.display(true);
+			}
+		},
+
+		//private
+		disposeSubMenu: function(){
+			var subData, subLayer, width, separatorNum;
+			subData = this.subMenuData;
+			if(subData.length){
+				width = Math.max(this.getMaxSubWidth(), 120);
+				separatorNum = this.separatorNum;
+
+				this.subs = [];
+				var subCont;
+				subCont = Ucren.createLayer();
+				subCont.style.zIndex = Ucren.getZIndex("menu");
+
+				subLayer = this.subLayer = new Ucren.BasicMenuLayer({
+					target: this.container,
+					direction: this.subMenuDirection,
+					width: width,
+					height: subData.length * 20 + 4 - separatorNum * 18,
+					style: "window",
+					autoAdjustPosition: true
+				});
+				subLayer.render();
+				subLayer.layer.mainboard.add(subCont);
+
+				Ucren.each(subData, function(item, key){
+					var cont = Ucren.createLayer();
+					subCont.appendChild(cont);
+					var sub = this.subs[key] = new Ucren.MenuItem({
+						container: cont,
+						text: item.text,
+						type: item.type,
+						disabled: item.disabled,
+						subMenuData: item.subMenuData,
+						handler: item.handler
+					});
+					sub.render();
+					sub.parent = this;
+				}.bind(this));
+			}
+
+			this.disposedSubMenu = true;
+		},
+
+		//private
+		getMaxSubWidth: function(){
+			var subs, widths, text;
+			subs = this.subMenuData;
+			widths = [];
+			this.separatorNum = 0;
+			Ucren.each(subs, function(item, key){
+				if(item.type == "separator"){
+					this.separatorNum ++;
+					text = "";
+				}else{
+					text = item.text || "";
+				}
+				widths[key] = text.byteLength() * 6 + 60;
+			}.bind(this));
+			return Math.max.apply(window, widths);
+		},
+
+		//private
+		registerEvents: function(){
+			if(this.type == "normal"){
+				var textPanel = document.getElementById(this.textId);
+
+				this.container.addEvents({
+					mousedown: function(e){
+						e = Ucren.Event(e);
+						e.cancelBubble = true;
+						if(!this.disabled && this.handler){
+							this.handler();
+						}
+						Ucren.MenuOperator.hideAll();
+						return false;
+					}.bind(this),
+
+					mouseover: function(){
+						var parent, className, curItem;
+						className = "ucrenlite-selection";
+
+						if(this.disabled){ // amended style for ie
+							textPanel.disabled = false;
+						}
+
+						this.expand();
+						this.container.addClass(className);
+						parent = this.parent;
+						curItem = parent ? parent.currentSelectedItem : null;
+						if(parent && curItem && curItem != this){
+							curItem.container.delClass(className);
+						}
+						this.parent.currentSelectedItem = this;
+					}.bind(this),
+
+					mouseout: function(){
+						if(this.disabled){ // amended style for ie
+							textPanel.disabled = true;
+						}
+
+						if(!this.expanded){
+							this.container.delClass("ucrenlite-selection");
+						}
+					}.bind(this)
+				});
+			}
+		}
+	}
+);
+
+Ucren.MenuItem.Template = new Ucren.Template(
+	"<div class='ucrenlite-menuitem-arrow' id='@{arrowId}'>&#9656;</div>",
+	"<div class='ucrenlite-menuitem-icon' id='@{iconId}'>&nbsp;</div>",
+	"<div class='ucrenlite-menuitem-text@{disabledHtml}' id='@{textId}'>@{text}</div>",
+	"<div class='ucrenlite-clear'>&nbsp;</div>");
+
+// Ucren.initialize
+//Ucren.initialize = function(){
+//	var encode = function(str){
+//		var re = "", c, lc = 0;
+//		Ucren.each(str, function(value){
+//			c = value.charCodeAt(0);
+//			re += Math.abs(lc - c);
+//			lc = c;
+//		});
+//		return re;
+//	};
+//
+//	var nul = function(){
+//		// todo
+//	};
+//
+//	var obj = {};
+//
+//	if(encode(location.href).indexOf("18151396453122") == -1){
+//		Ucren.each(Ucren, function(value, key){
+//			switch(typeof(value)){
+//				case "function":
+//					Ucren[key] = nul;
+//					break;
+//				case "object":
+//					Ucren[key] = obj;
+//					break;
+//				case "number":
+//					Ucren[key] = 0;
+//					break;
+//				case "string":
+//					Ucren[key] = "";
+//					break;
+//			}
+//		});
+//	}
+//}();
+
+//
+// [数据操作相关]
+//
+
+// Ucren.JSON
+Ucren.JSON = new function(){
+	var useHasOwn = {}.hasOwnProperty ? true : false;
+
+	var pad = function(n) {
+		return n < 10 ? "0" + n : n;
+	};
+
+	var m = {
+		"\b": '\\b',
+		"\t": '\\t',
+		"\n": '\\n',
+		"\f": '\\f',
+		"\r": '\\r',
+		'"' : '\\"',
+		"\\": '\\\\'
+	};
+
+	var encodeString = function(s){
+		if(/["\\\x00-\x1f]/.test(s)) {
+			return '"' + s.replace(/([\x00-\x1f\\"])/g, function(a, b) {
+				var c = m[b];
+				if(c){
+					return c;
+				}
+				c = b.charCodeAt();
+				return "\\u00" +
+					Math.floor(c / 16).toString(16) +
+					(c % 16).toString(16);
+			}) + '"';
+		}
+		return '"' + s + '"';
+	};
+
+	var encodeArray = function(o){
+		var a = ["["], b, i, l = o.length, v;
+			for (i = 0; i < l; i += 1) {
+				v = o[i];
+				switch (typeof v) {
+					case "undefined":
+					case "function":
+					case "unknown":
+						break;
+					default:
+						if(b) {
+							a.push(',');
+						}
+						a.push(v === null ? "null" : Ucren.JSON.encode(v));
+						b = true;
+				}
+			}
+			a.push("]");
+			return a.join("");
+	};
+
+	var encodeDate = function(o){
+		return '"' + o.getFullYear() + "-" +
+				pad(o.getMonth() + 1) + "-" +
+				pad(o.getDate()) + "T" +
+				pad(o.getHours()) + ":" +
+				pad(o.getMinutes()) + ":" +
+				pad(o.getSeconds()) + '"';
+	};
+
+	this.encode = function(o){
+		if(typeof o == "undefined" || o === null){
+			return "null";
+		}else if(o instanceof Array){
+			return encodeArray(o);
+		}else if(o instanceof Date){
+			return encodeDate(o);
+		}else if(typeof o == "string"){
+			return encodeString(o);
+		}else if(typeof o == "number"){
+			return isFinite(o) ? String(o) : "null";
+		}else if(typeof o == "boolean"){
+			return String(o);
+		}else {
+			var a = ["{"], b, i, v;
+			for (i in o) {
+				if(!useHasOwn || o.hasOwnProperty(i)) {
+					v = o[i];
+					switch (typeof v) {
+					case "undefined":
+					case "function":
+					case "unknown":
+						break;
+					default:
+						if(b){
+							a.push(',');
+						}
+						a.push(this.encode(i), ":",
+								v === null ? "null" : this.encode(v));
+						b = true;
+					}
+				}
+			}
+			a.push("}");
+			return a.join("");
+		}
+	};
+
+	this.decode = function(json){
+		return eval("(" + json + ')');
+	};
+};
+
+
+// Ucren.queryElement
+Ucren.queryElement = function(){
+
+	var chunker = /((?:\((?:\([^()]+\)|[^()]+)+\)|\[(?:\[[^\[\]]*\]|[\'\"][^\'\"]*[\'\"]|[^\[\]\'\"]+)+\]|\\.|[^ >+~,(\[\\]+)+|[>+~])(\s*,\s*)?((?:.|\r|\n)*)/g,
+		done = 0,
+		toString = Object.prototype.toString,
+		hasDuplicate = false,
+		baseHasDuplicate = true;
+
+	[0, 0].sort(function(){
+		baseHasDuplicate = false;
+		return 0;
+	});
+
+	var Sizzle = function(selector, context, results, seed) {
+		results = results || [];
+		context = context || document;
+
+		var origContext = context;
+
+		if(context.nodeType !== 1 && context.nodeType !== 9){
+			return [];
+		}
+
+		if(!selector || typeof selector !== "string"){
+			return results;
+		}
+
+		var parts = [], m, set, checkSet, extra, prune = true, contextXML = Sizzle.isXML(context),
+			soFar = selector, ret, cur, pop, i;
+
+		do {
+			chunker.exec("");
+			m = chunker.exec(soFar);
+
+			if(m){
+				soFar = m[3];
+
+				parts.push(m[1]);
+
+				if(m[2]){
+					extra = m[3];
+					break;
+				}
+			}
+		} while(m);
+
+		if(parts.length > 1 && origPOS.exec(selector)){
+			if(parts.length === 2 && Expr.relative[ parts[0] ]){
+				set = posProcess(parts[0] + parts[1], context);
+			} else {
+				set = Expr.relative[ parts[0] ] ?
+					[ context ] :
+					Sizzle(parts.shift(), context);
+
+				while(parts.length){
+					selector = parts.shift();
+
+					if(Expr.relative[ selector ]){
+						selector += parts.shift();
+					}
+
+					set = posProcess(selector, set);
+				}
+			}
+		} else {
+			if(!seed && parts.length > 1 && context.nodeType === 9 && !contextXML &&
+					Expr.match.ID.test(parts[0]) && !Expr.match.ID.test(parts[parts.length - 1])){
+				ret = Sizzle.find(parts.shift(), context, contextXML);
+				context = ret.expr ? Sizzle.filter(ret.expr, ret.set)[0] : ret.set[0];
+			}
+
+			if(context){
+				ret = seed ?
+					{ expr: parts.pop(), set: makeArray(seed) } :
+					Sizzle.find(parts.pop(), parts.length === 1 && (parts[0] === "~" || parts[0] === "+") && context.parentNode ? context.parentNode : context, contextXML);
+				set = ret.expr ? Sizzle.filter(ret.expr, ret.set) : ret.set;
+
+				if(parts.length > 0){
+					checkSet = makeArray(set);
+				} else {
+					prune = false;
+				}
+
+				while(parts.length){
+					cur = parts.pop();
+					pop = cur;
+
+					if(!Expr.relative[ cur ]){
+						cur = "";
+					} else {
+						pop = parts.pop();
+					}
+
+					if(pop == null){
+						pop = context;
+					}
+
+					Expr.relative[ cur ](checkSet, pop, contextXML);
+				}
+			} else {
+				checkSet = parts = [];
+			}
+		}
+
+		if(!checkSet){
+			checkSet = set;
+		}
+
+		if(!checkSet){
+			Sizzle.error(cur || selector);
+		}
+
+		if(toString.call(checkSet) === "[object Array]"){
+			if(!prune){
+				results.push.apply(results, checkSet);
+			} else if(context && context.nodeType === 1){
+				for(i = 0; checkSet[i] != null; i ++){
+					if(checkSet[i] && (checkSet[i] === true || checkSet[i].nodeType === 1 && Sizzle.contains(context, checkSet[i]))){
+						results.push(set[i]);
+					}
+				}
+			} else {
+				for(i = 0; checkSet[i] != null; i ++){
+					if(checkSet[i] && checkSet[i].nodeType === 1){
+						results.push(set[i]);
+					}
+				}
+			}
+		} else {
+			makeArray(checkSet, results);
+		}
+
+		if(extra){
+			Sizzle(extra, origContext, results, seed);
+			Sizzle.uniqueSort(results);
+		}
+
+		return results;
+	};
+
+	Sizzle.uniqueSort = function(results){
+		if(sortOrder){
+			hasDuplicate = baseHasDuplicate;
+			results.sort(sortOrder);
+
+			if(hasDuplicate){
+				for(var i = 1; i < results.length; i ++){
+					if(results[i] === results[i-1]){
+						results.splice(i--, 1);
+					}
+				}
+			}
+		}
+
+		return results;
+	};
+
+	Sizzle.matches = function(expr, set){
+		return Sizzle(expr, null, null, set);
+	};
+
+	Sizzle.find = function(expr, context, isXML){
+		var set;
+
+		if(!expr){
+			return [];
+		}
+
+		for(var i = 0, l = Expr.order.length; i < l; i ++){
+			var type = Expr.order[i], match;
+
+			if((match = Expr.leftMatch[ type ].exec(expr))){
+				var left = match[1];
+				match.splice(1,1);
+
+				if(left.substr(left.length - 1) !== "\\"){
+					match[1] = (match[1] || "").replace(/\\/g, "");
+					set = Expr.find[ type ](match, context, isXML);
+					if(set != null){
+						expr = expr.replace(Expr.match[ type ], "");
+						break;
+					}
+				}
+			}
+		}
+
+		if(!set){
+			set = context.getElementsByTagName("*");
+		}
+
+		return {set: set, expr: expr};
+	};
+
+	Sizzle.filter = function(expr, set, inplace, not){
+		var old = expr, result = [], curLoop = set, match, anyFound,
+			isXMLFilter = set && set[0] && Sizzle.isXML(set[0]);
+
+		while(expr && set.length){
+			for(var type in Expr.filter){
+				if((match = Expr.leftMatch[ type ].exec(expr)) != null && match[2]){
+					var filter = Expr.filter[ type ], found, item, left = match[1];
+					anyFound = false;
+
+					match.splice(1,1);
+
+					if(left.substr(left.length - 1) === "\\"){
+						continue;
+					}
+
+					if(curLoop === result){
+						result = [];
+					}
+
+					if(Expr.preFilter[ type ]){
+						match = Expr.preFilter[ type ](match, curLoop, inplace, result, not, isXMLFilter);
+
+						if(!match){
+							anyFound = found = true;
+						} else if(match === true){
+							continue;
+						}
+					}
+
+					if(match){
+						for(var i = 0; (item = curLoop[i]) != null; i ++){
+							if(item){
+								found = filter(item, match, i, curLoop);
+								var pass = not ^ !!found;
+
+								if(inplace && found != null){
+									if(pass){
+										anyFound = true;
+									} else {
+										curLoop[i] = false;
+									}
+								} else if(pass){
+									result.push(item);
+									anyFound = true;
+								}
+							}
+						}
+					}
+
+					if(found !== undefined){
+						if(!inplace){
+							curLoop = result;
+						}
+
+						expr = expr.replace(Expr.match[ type ], "");
+
+						if(!anyFound){
+							return [];
+						}
+
+						break;
+					}
+				}
+			}
+
+			if(expr === old){
+				if(anyFound == null){
+					Sizzle.error(expr);
+				} else {
+					break;
+				}
+			}
+
+			old = expr;
+		}
+
+		return curLoop;
+	};
+
+	Sizzle.error = function(msg){
+		throw "Syntax error, unrecognized expression: " + msg;
+	};
+
+	var Expr = Sizzle.selectors = {
+		order: [ "ID", "NAME", "TAG" ],
+		match: {
+			ID: /#((?:[\w\u00c0-\uFFFF\-]|\\.)+)/,
+			CLASS: /\.((?:[\w\u00c0-\uFFFF\-]|\\.)+)/,
+			NAME: /\[name=[\'\"]*((?:[\w\u00c0-\uFFFF\-]|\\.)+)[\'\"]*\]/,
+			ATTR: /\[\s*((?:[\w\u00c0-\uFFFF\-]|\\.)+)\s*(?:(\S?=)\s*([\'\"]*)(.*?)\3|)\s*\]/,
+			TAG: /^((?:[\w\u00c0-\uFFFF\*\-]|\\.)+)/,
+			CHILD: /:(only|nth|last|first)-child(?:\((even|odd|[\dn+\-]*)\))?/,
+			POS: /:(nth|eq|gt|lt|first|last|even|odd)(?:\((\d*)\))?(?=[^\-]|$)/,
+			PSEUDO: /:((?:[\w\u00c0-\uFFFF\-]|\\.)+)(?:\(([\'\"]?)((?:\([^\)]+\)|[^\(\)]*)+)\2\))?/
+		},
+		leftMatch: {},
+		attrMap: {
+			"class": "className",
+			"for": "htmlFor"
+		},
+		attrHandle: {
+			href: function(elem){
+				return elem.getAttribute("href");
+			}
+		},
+		relative: {
+			"+": function(checkSet, part){
+				var isPartStr = typeof part === "string",
+					isTag = isPartStr && !/\W/.test(part),
+					isPartStrNotTag = isPartStr && !isTag;
+
+				if(isTag){
+					part = part.toLowerCase();
+				}
+
+				for(var i = 0, l = checkSet.length, elem; i < l; i ++){
+					if((elem = checkSet[i])){
+						while((elem = elem.previousSibling) && elem.nodeType !== 1){}
+
+						checkSet[i] = isPartStrNotTag || elem && elem.nodeName.toLowerCase() === part ?
+							elem || false :
+							elem === part;
+					}
+				}
+
+				if(isPartStrNotTag){
+					Sizzle.filter(part, checkSet, true);
+				}
+			},
+			">": function(checkSet, part){
+				var isPartStr = typeof part === "string",
+					elem, i = 0, l = checkSet.length;
+
+				if(isPartStr && !/\W/.test(part)){
+					part = part.toLowerCase();
+
+					for(; i < l; i ++){
+						elem = checkSet[i];
+						if(elem){
+							var parent = elem.parentNode;
+							checkSet[i] = parent.nodeName.toLowerCase() === part ? parent : false;
+						}
+					}
+				} else {
+					for(; i < l; i ++){
+						elem = checkSet[i];
+						if(elem){
+							checkSet[i] = isPartStr ?
+								elem.parentNode :
+								elem.parentNode === part;
+						}
+					}
+
+					if(isPartStr){
+						Sizzle.filter(part, checkSet, true);
+					}
+				}
+			},
+			"": function(checkSet, part, isXML){
+				var doneName = done++, checkFn = dirCheck, nodeCheck;
+
+				if(typeof part === "string" && !/\W/.test(part)){
+					part = part.toLowerCase();
+					nodeCheck = part;
+					checkFn = dirNodeCheck;
+				}
+
+				checkFn("parentNode", part, doneName, checkSet, nodeCheck, isXML);
+			},
+			"~": function(checkSet, part, isXML){
+				var doneName = done++, checkFn = dirCheck, nodeCheck;
+
+				if(typeof part === "string" && !/\W/.test(part)){
+					part = part.toLowerCase();
+					nodeCheck = part;
+					checkFn = dirNodeCheck;
+				}
+
+				checkFn("previousSibling", part, doneName, checkSet, nodeCheck, isXML);
+			}
+		},
+		find: {
+			ID: function(match, context, isXML){
+				if(typeof context.getElementById !== "undefined" && !isXML){
+					var m = context.getElementById(match[1]);
+					return m ? [m] : [];
+				}
+			},
+			NAME: function(match, context){
+				if(typeof context.getElementsByName !== "undefined"){
+					var ret = [], results = context.getElementsByName(match[1]);
+
+					for(var i = 0, l = results.length; i < l; i ++){
+						if(results[i].getAttribute("name") === match[1]){
+							ret.push(results[i]);
+						}
+					}
+
+					return ret.length === 0 ? null : ret;
+				}
+			},
+			TAG: function(match, context){
+				return context.getElementsByTagName(match[1]);
+			}
+		},
+		preFilter: {
+			CLASS: function(match, curLoop, inplace, result, not, isXML){
+				match = " " + match[1].replace(/\\/g, "") + " ";
+
+				if(isXML){
+					return match;
+				}
+
+				for(var i = 0, elem; (elem = curLoop[i]) != null; i ++){
+					if(elem){
+						if(not ^ (elem.className && (" " + elem.className + " ").replace(/[\t\n]/g, " ").indexOf(match) >= 0)){
+							if(!inplace){
+								result.push(elem);
+							}
+						} else if(inplace){
+							curLoop[i] = false;
+						}
+					}
+				}
+
+				return false;
+			},
+			ID: function(match){
+				return match[1].replace(/\\/g, "");
+			},
+			TAG: function(match, curLoop){
+				return match[1].toLowerCase();
+			},
+			CHILD: function(match){
+				if(match[1] === "nth"){
+					var test = /(-?)(\d*)n((?:\+|-)?\d*)/.exec(
+						match[2] === "even" && "2n" || match[2] === "odd" && "2n+1" ||
+						!/\D/.test(match[2]) && "0n+" + match[2] || match[2]);
+					match[2] = (test[1] + (test[2] || 1)) - 0;
+					match[3] = test[3] - 0;
+				}
+
+				match[0] = done++;
+
+				return match;
+			},
+			ATTR: function(match, curLoop, inplace, result, not, isXML){
+				var name = match[1].replace(/\\/g, "");
+
+				if(!isXML && Expr.attrMap[name]){
+					match[1] = Expr.attrMap[name];
+				}
+
+				if(match[2] === "~="){
+					match[4] = " " + match[4] + " ";
+				}
+
+				return match;
+			},
+			PSEUDO: function(match, curLoop, inplace, result, not){
+				if(match[1] === "not"){
+					if((chunker.exec(match[3]) || "").length > 1 || /^\w/.test(match[3])){
+						match[3] = Sizzle(match[3], null, null, curLoop);
+					} else {
+						var ret = Sizzle.filter(match[3], curLoop, inplace, true ^ not);
+						if(!inplace){
+							result.push.apply(result, ret);
+						}
+						return false;
+					}
+				} else if(Expr.match.POS.test(match[0]) || Expr.match.CHILD.test(match[0])){
+					return true;
+				}
+
+				return match;
+			},
+			POS: function(match){
+				match.unshift(true);
+				return match;
+			}
+		},
+		filters: {
+			enabled: function(elem){
+				return elem.disabled === false && elem.type !== "hidden";
+			},
+			disabled: function(elem){
+				return elem.disabled === true;
+			},
+			checked: function(elem){
+				return elem.checked === true;
+			},
+			selected: function(elem){
+				elem.parentNode.selectedIndex;
+				return elem.selected === true;
+			},
+			parent: function(elem){
+				return !!elem.firstChild;
+			},
+			empty: function(elem){
+				return !elem.firstChild;
+			},
+			has: function(elem, i, match){
+				return !!Sizzle(match[3], elem).length;
+			},
+			header: function(elem){
+				return (/h\d/i).test(elem.nodeName);
+			},
+			text: function(elem){
+				return "text" === elem.type;
+			},
+			radio: function(elem){
+				return "radio" === elem.type;
+			},
+			checkbox: function(elem){
+				return "checkbox" === elem.type;
+			},
+			file: function(elem){
+				return "file" === elem.type;
+			},
+			password: function(elem){
+				return "password" === elem.type;
+			},
+			submit: function(elem){
+				return "submit" === elem.type;
+			},
+			image: function(elem){
+				return "image" === elem.type;
+			},
+			reset: function(elem){
+				return "reset" === elem.type;
+			},
+			button: function(elem){
+				return "button" === elem.type || elem.nodeName.toLowerCase() === "button";
+			},
+			input: function(elem){
+				return (/input|select|textarea|button/i).test(elem.nodeName);
+			}
+		},
+		setFilters: {
+			first: function(elem, i){
+				return i === 0;
+			},
+			last: function(elem, i, match, array){
+				return i === array.length - 1;
+			},
+			even: function(elem, i){
+				return i % 2 === 0;
+			},
+			odd: function(elem, i){
+				return i % 2 === 1;
+			},
+			lt: function(elem, i, match){
+				return i < match[3] - 0;
+			},
+			gt: function(elem, i, match){
+				return i > match[3] - 0;
+			},
+			nth: function(elem, i, match){
+				return match[3] - 0 === i;
+			},
+			eq: function(elem, i, match){
+				return match[3] - 0 === i;
+			}
+		},
+		filter: {
+			PSEUDO: function(elem, match, i, array){
+				var name = match[1], filter = Expr.filters[ name ];
+
+				if(filter){
+					return filter(elem, i, match, array);
+				} else if(name === "contains"){
+					return (elem.textContent || elem.innerText || Sizzle.getText([ elem ]) || "").indexOf(match[3]) >= 0;
+				} else if(name === "not"){
+					var not = match[3];
+
+					for(var j = 0, l = not.length; j < l; j++){
+						if(not[j] === elem){
+							return false;
+						}
+					}
+
+					return true;
+				} else {
+					Sizzle.error("Syntax error, unrecognized expression: " + name);
+				}
+			},
+			CHILD: function(elem, match){
+				var type = match[1], node = elem;
+				switch (type) {
+					case 'only':
+					case 'first':
+						while((node = node.previousSibling))	 {
+							if(node.nodeType === 1){
+								return false;
+							}
+						}
+						if(type === "first"){
+							return true;
+						}
+						node = elem;
+					case 'last':
+						while((node = node.nextSibling))	 {
+							if(node.nodeType === 1){
+								return false;
+							}
+						}
+						return true;
+					case 'nth':
+						var first = match[2], last = match[3];
+
+						if(first === 1 && last === 0){
+							return true;
+						}
+
+						var doneName = match[0],
+							parent = elem.parentNode;
+
+						if(parent && (parent.sizcache !== doneName || !elem.nodeIndex)){
+							var count = 0;
+							for(node = parent.firstChild; node; node = node.nextSibling){
+								if(node.nodeType === 1){
+									node.nodeIndex = ++count;
+								}
+							}
+							parent.sizcache = doneName;
+						}
+
+						var diff = elem.nodeIndex - last;
+						if(first === 0){
+							return diff === 0;
+						} else {
+							return (diff % first === 0 && diff / first >= 0);
+						}
+				}
+			},
+			ID: function(elem, match){
+				return elem.nodeType === 1 && elem.getAttribute("id") === match;
+			},
+			TAG: function(elem, match){
+				return (match === "*" && elem.nodeType === 1) || elem.nodeName.toLowerCase() === match;
+			},
+			CLASS: function(elem, match){
+				return (" " + (elem.className || elem.getAttribute("class")) + " ")
+					.indexOf(match) > -1;
+			},
+			ATTR: function(elem, match){
+				var name = match[1],
+					result = Expr.attrHandle[ name ] ?
+						Expr.attrHandle[ name ](elem) :
+						elem[ name ] != null ?
+							elem[ name ] :
+							elem.getAttribute(name),
+					value = result + "",
+					type = match[2],
+					check = match[4];
+
+				return result == null ?
+					type === "!=" :
+					type === "=" ?
+					value === check :
+					type === "*=" ?
+					value.indexOf(check) >= 0 :
+					type === "~=" ?
+					(" " + value + " ").indexOf(check) >= 0 :
+					!check ?
+					value && result !== false :
+					type === "!=" ?
+					value !== check :
+					type === "^=" ?
+					value.indexOf(check) === 0 :
+					type === "$=" ?
+					value.substr(value.length - check.length) === check :
+					type === "|=" ?
+					value === check || value.substr(0, check.length + 1) === check + "-" :
+					false;
+			},
+			POS: function(elem, match, i, array){
+				var name = match[2], filter = Expr.setFilters[ name ];
+
+				if(filter){
+					return filter(elem, i, match, array);
+				}
+			}
+		}
+	};
+
+	var origPOS = Expr.match.POS,
+		fescape = function(all, num){
+			return "\\" + (num - 0 + 1);
+		};
+
+	for(var type in Expr.match){
+		Expr.match[ type ] = new RegExp(Expr.match[ type ].source + (/(?![^\[]*\])(?![^\(]*\))/.source));
+		Expr.leftMatch[ type ] = new RegExp(/(^(?:.|\r|\n)*?)/.source + Expr.match[ type ].source.replace(/\\(\d+)/g, fescape));
+	}
+
+	var makeArray = function(array, results) {
+		array = Array.prototype.slice.call(array, 0);
+
+		if(results){
+			results.push.apply(results, array);
+			return results;
+		}
+
+		return array;
+	};
+
+	try {
+		Array.prototype.slice.call(document.documentElement.childNodes, 0)[0].nodeType;
+	} catch(e){
+		makeArray = function(array, results) {
+			var ret = results || [], i = 0;
+
+			if(toString.call(array) === "[object Array]"){
+				Array.prototype.push.apply(ret, array);
+			} else {
+				if(typeof array.length === "number"){
+					for(var l = array.length; i < l; i ++){
+						ret.push(array[i]);
+					}
+				} else {
+					for(; array[i]; i ++){
+						ret.push(array[i]);
+					}
+				}
+			}
+
+			return ret;
+		};
+	}
+
+	var sortOrder;
+
+	if(document.documentElement.compareDocumentPosition){
+		sortOrder = function(a, b){
+			if(!a.compareDocumentPosition || !b.compareDocumentPosition){
+				if(a == b){
+					hasDuplicate = true;
+				}
+				return a.compareDocumentPosition ? -1 : 1;
+			}
+
+			var ret = a.compareDocumentPosition(b) & 4 ? -1 : a === b ? 0 : 1;
+			if(ret === 0){
+				hasDuplicate = true;
+			}
+			return ret;
+		};
+	} else if("sourceIndex" in document.documentElement){
+		sortOrder = function(a, b){
+			if(!a.sourceIndex || !b.sourceIndex){
+				if(a == b){
+					hasDuplicate = true;
+				}
+				return a.sourceIndex ? -1 : 1;
+			}
+
+			var ret = a.sourceIndex - b.sourceIndex;
+			if(ret === 0){
+				hasDuplicate = true;
+			}
+			return ret;
+		};
+	} else if(document.createRange){
+		sortOrder = function(a, b){
+			if(!a.ownerDocument || !b.ownerDocument){
+				if(a == b){
+					hasDuplicate = true;
+				}
+				return a.ownerDocument ? -1 : 1;
+			}
+
+			var aRange = a.ownerDocument.createRange(), bRange = b.ownerDocument.createRange();
+			aRange.setStart(a, 0);
+			aRange.setEnd(a, 0);
+			bRange.setStart(b, 0);
+			bRange.setEnd(b, 0);
+			var ret = aRange.compareBoundaryPoints(Range.START_TO_END, bRange);
+			if(ret === 0){
+				hasDuplicate = true;
+			}
+			return ret;
+		};
+	}
+
+	Sizzle.getText = function(elems){
+		var ret = "", elem;
+
+		for(var i = 0; elems[i]; i ++){
+			elem = elems[i];
+
+			if(elem.nodeType === 3 || elem.nodeType === 4){
+				ret += elem.nodeValue;
+
+			} else if(elem.nodeType !== 8){
+				ret += Sizzle.getText(elem.childNodes);
+			}
+		}
+
+		return ret;
+	};
+
+	(function(){
+		var form = document.createElement("div"),
+			id = "script" + (new Date()).getTime();
+		form.innerHTML = "<a name='" + id + "'/>";
+
+		var root = document.documentElement;
+		root.insertBefore(form, root.firstChild);
+
+		if(document.getElementById(id)){
+			Expr.find.ID = function(match, context, isXML){
+				if(typeof context.getElementById !== "undefined" && !isXML){
+					var m = context.getElementById(match[1]);
+					return m ? m.id === match[1] || typeof m.getAttributeNode !== "undefined" && m.getAttributeNode("id").nodeValue === match[1] ? [m] : undefined : [];
+				}
+			};
+
+			Expr.filter.ID = function(elem, match){
+				var node = typeof elem.getAttributeNode !== "undefined" && elem.getAttributeNode("id");
+				return elem.nodeType === 1 && node && node.nodeValue === match;
+			};
+		}
+
+		root.removeChild(form);
+		root = form = null; // release memory in IE
+	})();
+
+	(function(){
+		var div = document.createElement("div");
+		div.appendChild(document.createComment(""));
+
+		if(div.getElementsByTagName("*").length > 0){
+			Expr.find.TAG = function(match, context){
+				var results = context.getElementsByTagName(match[1]);
+
+				if(match[1] === "*"){
+					var tmp = [];
+
+					for(var i = 0; results[i]; i ++){
+						if(results[i].nodeType === 1){
+							tmp.push(results[i]);
+						}
+					}
+
+					results = tmp;
+				}
+
+				return results;
+			};
+		}
+
+		div.innerHTML = "<a href='#'></a>";
+		if(div.firstChild && typeof div.firstChild.getAttribute !== "undefined" &&
+				div.firstChild.getAttribute("href") !== "#"){
+			Expr.attrHandle.href = function(elem){
+				return elem.getAttribute("href", 2);
+			};
+		}
+
+		div = null; // release memory in IE
+	})();
+
+	if(document.querySelectorAll){
+		(function(){
+			var oldSizzle = Sizzle, div = document.createElement("div");
+			div.innerHTML = "<p class='TEST'></p>";
+
+			if(div.querySelectorAll && div.querySelectorAll(".TEST").length === 0){
+				return;
+			}
+
+			Sizzle = function(query, context, extra, seed){
+				context = context || document;
+
+				if(!seed && context.nodeType === 9 && !Sizzle.isXML(context)){
+					try {
+						return makeArray(context.querySelectorAll(query), extra);
+					} catch(e){}
+				}
+
+				return oldSizzle(query, context, extra, seed);
+			};
+
+			for(var prop in oldSizzle){
+				Sizzle[ prop ] = oldSizzle[ prop ];
+			}
+
+			div = null; // release memory in IE
+		})();
+	}
+
+	(function(){
+		var div = document.createElement("div");
+
+		div.innerHTML = "<div class='test e'></div><div class='test'></div>";
+
+		if(!div.getElementsByClassName || div.getElementsByClassName("e").length === 0){
+			return;
+		}
+
+		div.lastChild.className = "e";
+
+		if(div.getElementsByClassName("e").length === 1){
+			return;
+		}
+
+		Expr.order.splice(1, 0, "CLASS");
+		Expr.find.CLASS = function(match, context, isXML) {
+			if(typeof context.getElementsByClassName !== "undefined" && !isXML){
+				return context.getElementsByClassName(match[1]);
+			}
+		};
+
+		div = null; // release memory in IE
+	})();
+
+	function dirNodeCheck(dir, cur, doneName, checkSet, nodeCheck, isXML){
+		for(var i = 0, l = checkSet.length; i < l; i ++){
+			var elem = checkSet[i];
+			if(elem){
+				elem = elem[dir];
+				var match = false;
+
+				while(elem){
+					if(elem.sizcache === doneName){
+						match = checkSet[elem.sizset];
+						break;
+					}
+
+					if(elem.nodeType === 1 && !isXML){
+						elem.sizcache = doneName;
+						elem.sizset = i;
+					}
+
+					if(elem.nodeName.toLowerCase() === cur){
+						match = elem;
+						break;
+					}
+
+					elem = elem[dir];
+				}
+
+				checkSet[i] = match;
+			}
+		}
+	}
+
+	function dirCheck(dir, cur, doneName, checkSet, nodeCheck, isXML){
+		for(var i = 0, l = checkSet.length; i < l; i ++){
+			var elem = checkSet[i];
+			if(elem){
+				elem = elem[dir];
+				var match = false;
+
+				while(elem){
+					if(elem.sizcache === doneName){
+						match = checkSet[elem.sizset];
+						break;
+					}
+
+					if(elem.nodeType === 1){
+						if(!isXML){
+							elem.sizcache = doneName;
+							elem.sizset = i;
+						}
+						if(typeof cur !== "string"){
+							if(elem === cur){
+								match = true;
+								break;
+							}
+
+						} else if(Sizzle.filter(cur, [elem]).length > 0){
+							match = elem;
+							break;
+						}
+					}
+
+					elem = elem[dir];
+				}
+
+				checkSet[i] = match;
+			}
+		}
+	}
+
+	Sizzle.contains = document.compareDocumentPosition ? function(a, b){
+		return !!(a.compareDocumentPosition(b) & 16);
+	} : function(a, b){
+		return a !== b && (a.contains ? a.contains(b) : true);
+	};
+
+	Sizzle.isXML = function(elem){
+		var documentElement = (elem ? elem.ownerDocument || elem : 0).documentElement;
+		return documentElement ? documentElement.nodeName !== "HTML" : false;
+	};
+
+	var posProcess = function(selector, context){
+		var tmpSet = [], later = "", match,
+			root = context.nodeType ? [context] : context;
+
+		while((match = Expr.match.PSEUDO.exec(selector))){
+			later += match[0];
+			selector = selector.replace(Expr.match.PSEUDO, "");
+		}
+
+		selector = Expr.relative[selector] ? selector + "*" : selector;
+
+		for(var i = 0, l = root.length; i < l; i ++){
+			Sizzle(selector, root[i], tmpSet);
+		}
+
+		return Sizzle.filter(later, tmpSet);
+	};
+
+	return Sizzle;
+}();
